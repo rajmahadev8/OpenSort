@@ -595,7 +595,18 @@ g {
     }
 }
 
+.story__wrapper {
+    position: relative;
+}
 
+.story__wrapper::after {
+    position: absolute;
+    content: url('../Weera_files/hanging-ceiling-lamp.png');
+    height: 200px;
+    width: 200px;
+    top: 0;
+    mask-repeat: no-repeat;
+}
 
 /* Card animation class */
 .card-animation__vibe-card--one {
