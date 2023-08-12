@@ -4152,6 +4152,7 @@ button {
     left: calc(50% - 877px);
     width: 25rem;
     height: 24.5625rem
+    
 }
 
 .acquaintance__img-block picture:nth-child(3) img {
@@ -4427,8 +4428,8 @@ button {
 .acquaintance__animation-text-images picture:nth-child(1) img {
     bottom: 531px;
     left: calc(50% - 400px);
-    width: 15.0625rem;
-    height: 9.625rem;
+    width: 28.0625rem;
+    height: 12.625rem;
     -webkit-transition: -webkit-transform 1s ease 1s;
     -o-transition: transform 1s ease 1s;
     transition: transform 1s ease 1s;
@@ -4438,14 +4439,14 @@ button {
 .acquaintance__animation-text-images picture:nth-child(2) img {
     bottom: 233px;
     left: calc(50% - 200px);
-    width: 22.25rem;
+    width: 28.25rem;
     height: 13.125rem
 }
 
 .acquaintance__animation-text-images picture:nth-child(3) img {
     right: calc(50% - 550px);
     bottom: 380px;
-    width: 18.125rem;
+    width: 28.125rem;
     height: 12.25rem
 }
 
@@ -5505,7 +5506,7 @@ button {
 
 .mission__title {
     font-weight: 800;
-    color: #fce9d6;
+    color: #56b0b1;
     max-width: 40.625rem;
     margin: 0 0 1.875rem;
     font-size: 6.125rem;
@@ -5631,6 +5632,7 @@ button {
     height: 25.625rem
 }
 
+
 .mission__animation-text-block,
 .mission__animation-text-images {
     position: absolute;
@@ -5657,8 +5659,8 @@ button {
 .mission__animation-text-images picture:nth-child(1) img {
     bottom: 531px;
     left: calc(50% - 400px);
-    width: 15.0625rem;
-    height: 9.625rem
+    width: 26.0625rem;
+    height: 12.625rem
 }
 
 .mission__animation-text-images picture:nth-child(1) img,
@@ -5680,9 +5682,16 @@ button {
 
 .mission__animation-text-images picture:nth-child(3) img {
     right: calc(50% - 550px);
-    bottom: 380px;
+    bottom: 420px;
     width: 18.125rem;
     height: 12.25rem
+}
+.mission__animation-text-images picture:nth-child(4) img {
+    right: calc(50% - 550px);
+    height: 400px;
+    width: 400px;
+    right: 34rem;
+    bottom: -4rem;
 }
 
 .mission__animation-text-icon {
@@ -5787,6 +5796,7 @@ button {
     -ms-transform: translateX(-160px);
     transform: translateX(-160px)
 }
+
 
 .mission.shown-in .mission__animation-text-icon {
     -webkit-transform: translate(-20px, -3.125rem) scale(.7);
@@ -9081,6 +9091,13 @@ screen and (min-width:0\0) {
         right: 23.25rem;
         bottom: 22.5rem
     }
+    
+    .mission__animation-text-images picture:nth-child(4) img{
+        height: 400px;
+        width: 400px;
+        right: 33rem;
+        bottom: -4rem;
+    }
 
     .mission.shown-in .mission__animation-img-block {
         -webkit-transform: scale(4);
@@ -9214,7 +9231,9 @@ screen and (min-width:0\0) {
     .container {
         padding: 0 22px
     }
-
+    .mission__img-simple img{
+        transform:translate(0,0) scale(1.5) !important
+    }
     .header.is-open .header__burger span:nth-child(1) {
         -webkit-transform: translateY(7px) rotate(-45deg);
         -ms-transform: translateY(7px) rotate(-45deg);
@@ -10045,7 +10064,7 @@ screen and (min-width:0\0) {
     .acquaintance__animation-text-images picture:nth-child(1) img {
         bottom: 513px;
         left: 226px;
-        width: 171px;
+        width: 450px;
         height: 110px
     }
 
@@ -10453,6 +10472,12 @@ screen and (min-width:0\0) {
         bottom: 387px;
         width: 207px;
         height: 140px
+    }
+    .mission__animation-text-images picture:nth-child(4) img {
+        right: 116px;
+        bottom: 387px;
+        width: 207px;
+        height: 540px
     }
 
     .mission__animation-text-icon {
@@ -12521,7 +12546,7 @@ screen and (min-width:0\0) {
     .acquaintance__animation-text-images picture:nth-child(1) img {
         bottom: 22.9375rem;
         left: 4.1875rem;
-        width: 7.4375rem;
+        width: 9.4375rem;
         height: 4.75rem
     }
 
@@ -12535,7 +12560,7 @@ screen and (min-width:0\0) {
     .acquaintance__animation-text-images picture:nth-child(3) img {
         right: 4.8125rem;
         bottom: 17.3125rem;
-        width: 7.8125rem;
+        width: 9.8125rem;
         height: 5.125rem
     }
 
@@ -12939,6 +12964,12 @@ screen and (min-width:0\0) {
     }
 
     .mission__animation-text-images picture:nth-child(3) img {
+        right: 4.8125rem;
+        bottom: 17.3125rem;
+        width: 7.8125rem;
+        height: 5.125rem
+    }
+    .mission__animation-text-images picture:nth-child(4) img {
         right: 4.8125rem;
         bottom: 17.3125rem;
         width: 7.8125rem;
@@ -14177,6 +14208,10 @@ screen and (min-width:0\0) {
     .mission__animation-text-images picture:nth-child(3) img {
         right: 23.25rem;
         bottom: 18.75rem
+    }
+    .mission__animation-text-images picture:nth-child(4) img {
+        right: 36rem;
+        bottom: 0rem
     }
 
     .mission__animation-text-icon {
