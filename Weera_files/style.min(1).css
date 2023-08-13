@@ -8642,7 +8642,7 @@ screen and (min-width:0\0) {
     .vibe__title {
         margin: 0 0 3.3vh;
         font-size: 4.875rem;
-        max-width: 38.125rem
+        max-width: 100%;
     }
 
     .vibe__text {
@@ -8804,7 +8804,7 @@ screen and (min-width:0\0) {
     .vibe__title {
         margin: 0 0 2.7vh;
         font-size: 5.25rem;
-        max-width: 35rem
+        max-width: 100%;
     }
 
     .vibe__text {
