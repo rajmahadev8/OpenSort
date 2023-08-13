@@ -531,6 +531,7 @@
     transform: translate(100px, 180px);
     z-index: -10;
 }
+
 .vibe-svg {
     position: absolute;
     transform: translate(0px, 400px);
@@ -603,6 +604,15 @@ g {
 .story__wrapper {
     position: relative;
 }
+
+.digi_comm_image {
+    top: -3.25rem;
+    scale: 2;
+    left: 9rem;
+    width: 100%;
+}
+
+
 
 .story__wrapper::after {
     position: absolute;
