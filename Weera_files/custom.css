@@ -611,7 +611,16 @@ g {
     left: 9rem;
     width: 100%;
 }
-
+.digi_comm_bg{
+    position: absolute;
+    top: 0;
+    z-index: -100;
+    width: 1000px;
+    transform: scale(2.0);
+}
+canvas{
+    position: absolute;
+}
 
 
 .story__wrapper::after {

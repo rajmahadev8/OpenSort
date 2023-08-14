@@ -11,7 +11,10 @@
   <script async="" src="./Weera_files/tag.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles-engine"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles/tsparticles.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-particles"></script>
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.18.3/dist/tsparticles.min.js"></script>
 
 
   <script async="" src="./Weera_files/gtm.js"></script>
@@ -2265,7 +2268,8 @@
       <section class="connections screen right-screen" data-screen="" data-show-in="1000" data-show-out="1000"
         data-background="#c0ddf9" data-background-delay-in="1000" data-background-delay-out="400">
         <div class="connections__bg screen__bg"></div>
-        <div class="connections__wrapper screen__content">
+        <div class="connections__wrapper screen__content" id="tsparticles">
+          <script src="./Weera_files/tsparticle.js"></script>
           <div class="connections__line connections__line--1">
             <svg width="28" height="200" aria-hidden="true">
               <use xlink:href="https://weera.family/wp-content/themes/weera/img/sprite_auto.svg#icon-line-1"></use>
@@ -2292,7 +2296,7 @@
             </svg>
           </div>
           <div class="container">
-
+           
             <!-- <div class="connections__face-1">
               <svg width="291" height="291" viewBox="0 0 291 291" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_d_77_7858)">
@@ -2346,7 +2350,7 @@
 
                 <img src="./Weera_files/digital_comm1.png" width="113" height="133" alt="face">
               </picture>
-            </div>-->
+            </div> -->
             <div class="connections__face-3">
               <div class="connections__face-figure">
                 <picture>
@@ -2358,11 +2362,14 @@
               </div>
               <div class="connections__face-pic">
                 <picture>
-
                   <img class="digi_comm_image" src="./Weera_files/digi_comm2.png" alt="face">
-
                 </picture>
+               
+                  <img class="digi_comm_bg" src="./Weera_files/digi_comm_backg.png" alt="face">
+               
               </div>
+             
+            
             </div>
             <div class="connections__content">
               <h2 class="connections__title">Connecting familes in digital harmony</h2>
