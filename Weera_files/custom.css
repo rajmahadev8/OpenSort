@@ -613,10 +613,10 @@ g {
 }
 .digi_comm_bg{
     position: absolute;
-    top: 0;
+    top: -77px;
     z-index: -100;
-    width: 1000px;
-    transform: scale(2.0);
+    width: 100%;
+    transform: scale(1.3);
 }
 canvas{
     position: absolute;
@@ -643,4 +643,9 @@ canvas{
 
 .card-animation__vibe-card--three {
     background-color: #e0b478;
+}
+.digital-svg{
+    position: absolute;
+    transform: translate(-404px, 380px);
+    z-index: -10;
 }
