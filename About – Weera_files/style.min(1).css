@@ -1739,7 +1739,7 @@ button {
     z-index: -1;
     width: 100%;
     padding: 100% 0 0;
-    background-color:  #e88a77;
+    background-color: #e88a77;
     border-radius: 50%;
     -webkit-transform: translate(-50%, -50%) scale(0);
     -ms-transform: translate(-50%, -50%) scale(0);
@@ -2055,6 +2055,38 @@ button {
     margin: 0 0 .3125rem
 }
 
+[lang=fr-FR] .footer .footer__links {
+    margin: 0 1.25rem 0 0;
+    gap: .9375rem 2.25rem
+}
+
+[lang=it-IT] .footer .footer__links {
+    margin: 0 1.25rem 0 0;
+    gap: .9375rem 2.875rem
+}
+
+[lang=es-ES] .footer .footer__links,
+[lang=hy] .footer .footer__links {
+    margin: 0 1.25rem 0 0;
+    gap: .9375rem 1.875rem
+}
+
+[lang=es-ES] .footer .footer__link,
+[lang=hy] .footer .footer__link {
+    font-size: .875rem;
+    line-height: 1.125rem
+}
+
+[lang=es-ES] .footer .footer__copyright,
+[lang=hy] .footer .footer__copyright {
+    margin: 0 2.25rem 0 0;
+    font-size: .875rem;
+    line-height: 1.125rem
+}
+
+[lang=hy] .footer .footer__link::before {
+    width: 120%
+}
 
 .modal {
     position: fixed;
@@ -2202,7 +2234,7 @@ button {
     -webkit-transform: translate(-50%, -50%) scale(0);
     -ms-transform: translate(-50%, -50%) scale(0);
     transform: translate(-50%, -50%) scale(0);
-    background-color:  #e88a77;
+    background-color: #e88a77;
     pointer-events: none;
     -webkit-transition: -webkit-transform .3s ease;
     -o-transition: transform .3s ease;
@@ -3462,7 +3494,7 @@ button {
     font-size: 4rem;
     line-height: 100%;
     text-align: center;
-    color:  #e88a77
+    color: #e88a77
 }
 
 .price-plans__description {
@@ -3585,7 +3617,7 @@ button {
 
 .plan-card__control.is-active {
     color: transparent;
-    background-color:  #e88a77
+    background-color: #e88a77
 }
 
 .final-screen__img picture,
@@ -3807,7 +3839,7 @@ button {
     align-items: center
 }
 
-.socials-list__link img {
+.socials-list__link svg {
     width: 3.1875rem;
     height: 3.1875rem;
     fill: #aec1ee;
@@ -4012,12 +4044,12 @@ button {
 .navigation__nav-link--bold.is-current,
 .navigation__nav-link.is-current {
     pointer-events: none;
-    color:  #e88a77
+    color: #e88a77
 }
 
 .navigation__nav-link--bold.is-current:focus,
 .navigation__nav-link.is-current:focus {
-    color:  #e88a77
+    color: #e88a77
 }
 
 .navigation__nav-link.is-current:focus::before {
@@ -4120,7 +4152,6 @@ button {
     left: calc(50% - 877px);
     width: 25rem;
     height: 24.5625rem
-    
 }
 
 .acquaintance__img-block picture:nth-child(3) img {
@@ -4177,7 +4208,7 @@ button {
     font-size: 6.125rem;
     line-height: 100%;
     text-align: center;
-    color:  #e88a77;
+    color: #e88a77;
     letter-spacing: .02em
 }
 
@@ -4251,12 +4282,12 @@ button {
 .acquaintance__logo-icon {
     width: 9.1875rem;
     height: 5.1875rem;
-    -webkit-transform:  translate(-74px, -69px);
-    -ms-transform:  translate(-74px, -69px);
-    transform:  translate(-74px, -69px)
+    -webkit-transform: translate(-66%, -92%);
+    -ms-transform: translate(-66%, -92%);
+    transform: translate(-66%, -92%)
 }
 
-.acquaintance__logo-icon span {
+.acquaintance__logo-icon img {
     width: 100%;
     height: auto;
     opacity: 0;
@@ -4396,8 +4427,8 @@ button {
 .acquaintance__animation-text-images picture:nth-child(1) img {
     bottom: 531px;
     left: calc(50% - 400px);
-    width: 28.0625rem;
-    height: 12.625rem;
+    width: 15.0625rem;
+    height: 9.625rem;
     -webkit-transition: -webkit-transform 1s ease 1s;
     -o-transition: transform 1s ease 1s;
     transition: transform 1s ease 1s;
@@ -4407,14 +4438,14 @@ button {
 .acquaintance__animation-text-images picture:nth-child(2) img {
     bottom: 233px;
     left: calc(50% - 200px);
-    width: 28.25rem;
+    width: 22.25rem;
     height: 13.125rem
 }
 
 .acquaintance__animation-text-images picture:nth-child(3) img {
     right: calc(50% - 550px);
     bottom: 380px;
-    width: 28.125rem;
+    width: 18.125rem;
     height: 12.25rem
 }
 
@@ -4456,7 +4487,7 @@ button {
     opacity: 1
 }
 
-.acquaintance.shown-in .acquaintance__logo-icon span {
+.acquaintance.shown-in .acquaintance__logo-icon img {
     opacity: 1
 }
 
@@ -4499,7 +4530,7 @@ button {
 
 .acquaintance.shown-out .acquaintance__description,
 .acquaintance.shown-out .acquaintance__logo-bg img,
-.acquaintance.shown-out .acquaintance__logo-icon span,
+.acquaintance.shown-out .acquaintance__logo-icon img,
 .acquaintance.shown-out .acquaintance__title-text {
     opacity: 0;
     -webkit-transition: opacity 2s ease, -webkit-transform 2s ease;
@@ -4515,7 +4546,7 @@ button {
 }
 
 .acquaintance.shown-out .acquaintance__logo-bg img,
-.acquaintance.shown-out .acquaintance__logo-icon span {
+.acquaintance.shown-out .acquaintance__logo-icon img {
     -webkit-transform: translate(-100px, -40vh);
     -ms-transform: translate(-100px, -40vh);
     transform: translate(-100px, -40vh)
@@ -4752,7 +4783,7 @@ button {
     z-index: -1;
     width: 150%;
     height: 9.375rem;
-    background-color:  #e88a77;
+    background-color: #e88a77;
     border-radius: 50%;
     -webkit-transform: translate(-50%, -50%) translateZ(0) scale(0);
     transform: translate(-50%, -50%) translateZ(0) scale(0);
@@ -5197,7 +5228,7 @@ button {
     line-height: 100%;
     text-align: center;
     letter-spacing: .02em;
-    color: #a7413a
+    color: #fce9d6
 }
 
 .connections__text {
@@ -5322,7 +5353,10 @@ button {
 
 .connections__face-3 .connections__face-pic img {
     position: absolute;
-    
+    top: 5.625rem;
+    left: 5.125rem;
+    width: 14.8125rem;
+    height: 14.3125rem
 }
 
 .connections__face-3 .connections__face-figure img {
@@ -5471,7 +5505,7 @@ button {
 
 .mission__title {
     font-weight: 800;
-    color: #56b0b1;
+    color: #fce9d6;
     max-width: 40.625rem;
     margin: 0 0 1.875rem;
     font-size: 6.125rem;
@@ -5597,7 +5631,6 @@ button {
     height: 25.625rem
 }
 
-
 .mission__animation-text-block,
 .mission__animation-text-images {
     position: absolute;
@@ -5624,8 +5657,8 @@ button {
 .mission__animation-text-images picture:nth-child(1) img {
     bottom: 531px;
     left: calc(50% - 400px);
-    width: 26.0625rem;
-    height: 12.625rem
+    width: 15.0625rem;
+    height: 9.625rem
 }
 
 .mission__animation-text-images picture:nth-child(1) img,
@@ -5647,16 +5680,9 @@ button {
 
 .mission__animation-text-images picture:nth-child(3) img {
     right: calc(50% - 550px);
-    bottom: 420px;
+    bottom: 380px;
     width: 18.125rem;
     height: 12.25rem
-}
-.mission__animation-text-images picture:nth-child(4) img {
-    right: calc(50% - 550px);
-    height: 400px;
-    width: 400px;
-    right: 34rem;
-    bottom: -4rem;
 }
 
 .mission__animation-text-icon {
@@ -5761,7 +5787,6 @@ button {
     -ms-transform: translateX(-160px);
     transform: translateX(-160px)
 }
-
 
 .mission.shown-in .mission__animation-text-icon {
     -webkit-transform: translate(-20px, -3.125rem) scale(.7);
@@ -6295,8 +6320,6 @@ button {
 
 .card-animation__vibe-card svg,
 .card-animation__vibe-card-main img {
-    border-radius: 18px;
-
     width: 100%;
     height: 100%
 }
@@ -6427,7 +6450,7 @@ button {
 }
 
 .card-animation__img-1 {
-    left: 14rem;
+    left: 10rem;
     -webkit-transform: scale(.7);
     -ms-transform: scale(.7);
     transform: scale(.7);
@@ -6811,7 +6834,7 @@ button {
     font-weight: 800;
     font-size: 4rem;
     line-height: 100%;
-    color:  #e88a77
+    color: #e88a77
 }
 
 .feature-intro__text {
@@ -6825,7 +6848,7 @@ button {
 .feature-intro--video {
     position: relative;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 0;
     overflow: hidden;
     z-index: 1;
@@ -6834,7 +6857,9 @@ button {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0)
 }
-
+.feature-img{
+    margin:3rem;
+}
 .feature-intro--bonding-activities .feature-intro__text {
     max-width: 27.25rem
 }
@@ -7117,7 +7142,7 @@ button {
 }
 
 .features-list--about .features-list__title {
-    color:  #e88a77
+    color: #e88a77
 }
 
 .features-list--about .features-list__item {
@@ -7276,7 +7301,7 @@ button {
 
 .learn-more--about .learn-more__title,
 .learn-more--media .learn-more__title {
-    color:  #e88a77
+    color: #e88a77
 }
 
 .learn-more--about .learn-more__card,
@@ -7604,7 +7629,7 @@ button {
     font-size: 4rem;
     line-height: 100%;
     text-align: center;
-    color:  #e88a77
+    color: #e88a77
 }
 
 .faq__img-1 {
@@ -7784,7 +7809,7 @@ button {
     font-size: 3rem;
     line-height: 100%;
     text-align: center;
-    color:  #e88a77
+    color: #e88a77
 }
 
 .services-info__link,
@@ -7818,7 +7843,7 @@ button {
     margin: 0 .9375rem 0 0;
     width: 2.875rem;
     height: 2.5625rem;
-    color:  #e88a77
+    color: #e88a77
 }
 
 .services-info__link span {
@@ -8061,7 +8086,7 @@ button {
 }
 
 .service-slider--benefits .service-slider__slide.swiper-slide-active {
-    background-color:  #e88a77
+    background-color: #e88a77
 }
 
 .service-slider--benefits .service-slider__slide-title {
@@ -8116,7 +8141,7 @@ button {
     font-size: 4rem;
     line-height: 100%;
     text-align: center;
-    color:  #e88a77
+    color: #e88a77
 }
 
 .feedback__text {
@@ -8336,7 +8361,7 @@ screen and (min-width:0\0) {
 
     .dropdown__link:focus,
     .dropdown__link:hover {
-        color:  #e88a77
+        color: #e88a77
     }
 
     .navigation__nav-link:focus,
@@ -8351,7 +8376,7 @@ screen and (min-width:0\0) {
 
     .navigation__nav-link--bold:focus,
     .navigation__nav-link--bold:hover {
-        color:  #e88a77
+        color: #e88a77
     }
 
     .acquaintance__next-screen-button:hover {
@@ -8390,7 +8415,7 @@ screen and (min-width:0\0) {
         -webkit-transform: scale(1);
         -ms-transform: scale(1);
         transform: scale(1);
-        background-color:  #e88a77
+        background-color: #e88a77
     }
 
     .feature-intro__video-play-btn:hover.is-hidden {
@@ -8411,7 +8436,7 @@ screen and (min-width:0\0) {
     }
 
     .services-info__link:hover {
-        color:  #e88a77
+        color: #e88a77
     }
 
     .service-slider__nav-btn:hover {
@@ -8607,7 +8632,7 @@ screen and (min-width:0\0) {
     .vibe__title {
         margin: 0 0 3.3vh;
         font-size: 4.875rem;
-        max-width: 100%;
+        max-width: 38.125rem
     }
 
     .vibe__text {
@@ -8769,7 +8794,7 @@ screen and (min-width:0\0) {
     .vibe__title {
         margin: 0 0 2.7vh;
         font-size: 5.25rem;
-        max-width: 100%;
+        max-width: 35rem
     }
 
     .vibe__text {
@@ -9058,13 +9083,6 @@ screen and (min-width:0\0) {
         right: 23.25rem;
         bottom: 22.5rem
     }
-    
-    .mission__animation-text-images picture:nth-child(4) img{
-        height: 400px;
-        width: 400px;
-        right: 33rem;
-        bottom: -4rem;
-    }
 
     .mission.shown-in .mission__animation-img-block {
         -webkit-transform: scale(4);
@@ -9198,9 +9216,7 @@ screen and (min-width:0\0) {
     .container {
         padding: 0 22px
     }
-    .mission__img-simple img{
-        transform:translate(0,32px) scale(1.5) !important
-    }
+
     .header.is-open .header__burger span:nth-child(1) {
         -webkit-transform: translateY(7px) rotate(-45deg);
         -ms-transform: translateY(7px) rotate(-45deg);
@@ -10031,7 +10047,7 @@ screen and (min-width:0\0) {
     .acquaintance__animation-text-images picture:nth-child(1) img {
         bottom: 513px;
         left: 226px;
-        width: 450px;
+        width: 171px;
         height: 110px
     }
 
@@ -10146,7 +10162,6 @@ screen and (min-width:0\0) {
         position: static;
         display: -webkit-box;
         display: -ms-flexbox;
-        margin-top: 2rem;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -10160,9 +10175,6 @@ screen and (min-width:0\0) {
     .vibe__content {
         max-width: 548px;
         margin: 0
-    }
-    .vibe__content > .vibe__img{
-        display: none;
     }
 
     .vibe__title {
@@ -10443,12 +10455,6 @@ screen and (min-width:0\0) {
         bottom: 387px;
         width: 207px;
         height: 140px
-    }
-    .mission__animation-text-images picture:nth-child(4) img {
-        right: 116px;
-        bottom: 387px;
-        width: 207px;
-        height: 540px
     }
 
     .mission__animation-text-icon {
@@ -10744,7 +10750,7 @@ screen and (min-width:0\0) {
 
     .card-animation__img-1 {
         top: 108px;
-        left: 167px;
+        left: 112px;
         width: 170px;
         height: 170px
     }
@@ -10828,7 +10834,7 @@ screen and (min-width:0\0) {
 
     .feature-intro--video {
         padding: 0;
-        height: 61.19792vw
+        /* height: 61.19792vw */
     }
 
     .feature-intro--bonding-activities .feature-intro__text {
@@ -11695,8 +11701,7 @@ screen and (min-width:0\0) {
 
     .mission__img-simple {
         width: 192px;
-        height: 354px;
-        transform: translate(0,52px)
+        height: 354px
     }
 
     .beat__wrapper {
@@ -11906,7 +11911,7 @@ screen and (min-width:0\0) {
     .footer__links {
         display: none
     }
-    
+
     .footer__link {
         font-size: 1.125rem;
         line-height: 1.3125rem
@@ -12518,7 +12523,7 @@ screen and (min-width:0\0) {
     .acquaintance__animation-text-images picture:nth-child(1) img {
         bottom: 22.9375rem;
         left: 4.1875rem;
-        width: 9.4375rem;
+        width: 7.4375rem;
         height: 4.75rem
     }
 
@@ -12532,7 +12537,7 @@ screen and (min-width:0\0) {
     .acquaintance__animation-text-images picture:nth-child(3) img {
         right: 4.8125rem;
         bottom: 17.3125rem;
-        width: 9.8125rem;
+        width: 7.8125rem;
         height: 5.125rem
     }
 
@@ -12662,7 +12667,6 @@ screen and (min-width:0\0) {
     .bottom-block__mobile {
         display: -webkit-box;
         display: -ms-flexbox;
-        margin-bottom: 2rem;
         display: flex;
         -webkit-box-align: center;
         -ms-flex-align: center;
@@ -12823,8 +12827,8 @@ screen and (min-width:0\0) {
     }
 
     .connections__face-3 {
-        top: 19%;
-        left: calc(50%)
+        top: 11.25rem;
+        left: calc(50% - 2.0625rem)
     }
 
     .connections__face-3 .connections__face-pic img {
@@ -12937,12 +12941,6 @@ screen and (min-width:0\0) {
     }
 
     .mission__animation-text-images picture:nth-child(3) img {
-        right: 4.8125rem;
-        bottom: 17.3125rem;
-        width: 7.8125rem;
-        height: 5.125rem
-    }
-    .mission__animation-text-images picture:nth-child(4) img {
         right: 4.8125rem;
         bottom: 17.3125rem;
         width: 7.8125rem;
@@ -13116,12 +13114,12 @@ screen and (min-width:0\0) {
     }
 
     .final-screen__img-wrapper {
-        /* height: 17.4375rem */
+        height: 17.4375rem
     }
 
     .final-screen__img {
         width: 100%;
-        /* max-height: 17.4375rem; */
+        max-height: 17.4375rem;
         border-radius: 5rem 5rem 0 0
     }
 
@@ -13225,7 +13223,7 @@ screen and (min-width:0\0) {
 
     .card-animation__img-1 {
         top: 4.3125rem;
-        left: 6.5rem;
+        left: 4.5rem;
         width: 6.8125rem;
         height: 6.8125rem
     }
@@ -13321,7 +13319,7 @@ screen and (min-width:0\0) {
 
     .feature-intro--video {
         padding: 0;
-        height: 29.375rem
+        /* height: 29.375rem */
     }
 
     .feature-intro--bonding-activities .feature-intro__text {
@@ -14181,10 +14179,6 @@ screen and (min-width:0\0) {
     .mission__animation-text-images picture:nth-child(3) img {
         right: 23.25rem;
         bottom: 18.75rem
-    }
-    .mission__animation-text-images picture:nth-child(4) img {
-        right: 36rem;
-        bottom: 0rem
     }
 
     .mission__animation-text-icon {

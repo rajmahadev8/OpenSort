@@ -6,6 +6,7 @@
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#edf3f8", endColorstr="#dee3e8", GradientType=1);
 }
 
+
 .pentahedron {
     position: absolute;
     width: 100%;
@@ -511,14 +512,15 @@
     display: block;
     /* margin-left: auto;
     margin-right: auto; */
-    position: absolute;
-    scale: 1.4;
+    /* position: absolute; */
+    scale: 1.3;
     right: -35%;
 }
 
 .acquaintance .container {
     flex-direction: row;
-    justify-content: end;
+    justify-content: space-between;
+    align-items: flex-start;
 
 }
 
@@ -608,17 +610,19 @@ g {
 .digi_comm_image {
     top: -3.25rem;
     scale: 2;
-    left: 9rem;
+    left: 6rem;
     width: 100%;
 }
-.digi_comm_bg{
+
+.digi_comm_bg {
     position: absolute;
     top: -77px;
     z-index: -100;
     width: 100%;
     transform: scale(1.3);
 }
-canvas{
+
+canvas {
     position: absolute;
 }
 
@@ -630,6 +634,80 @@ canvas{
     width: 200px;
     top: 0;
     mask-repeat: no-repeat;
+}
+@media (max-width: 767px){
+    .story__wrapper::after {
+        display: none;
+    }
+    .vibe-svg{
+        transform: scale(0.5) !important; 
+    }
+    .mission-svg{
+        transform: scale(0.5);
+    }
+    .digital-svg{
+        transform: scale(0.5) !important;
+    }
+    .digi_comm_image{
+        transform: scale(2) !important;
+    }
+    .digi_comm_bg{
+        transform: scale(3.1) !important;
+    }
+
+}
+@media (max-width: 767px) {
+    .footer__links {
+      display: flex !important;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 0;
+    }
+
+    .footer__links-item {
+      display: none;
+    }
+
+    .footer__links-item.footer_links-item--always {
+      display: flex;
+
+    }
+
+    .footer__links-item.footer_links-item--always a {
+      font-size: 1rem;
+    }
+
+
+  }
+@media (max-width: 1023px) {
+    .connections__face-3 {
+        left: 50%;
+        top:119px;
+    }
+    .digi_comm_image{
+        transform: scale(2);
+    }
+    .digi_comm_bg{
+        transform: scale(2.2);
+    }
+    .story__wrapper::after {
+        display: none;
+    }
+    .vibe-svg{
+        transform: scale(0.5) !important; 
+    }
+    .mission-svg{
+        transform: scale(0.5) !important;
+    }
+    .digital-svg{
+        transform: scale(0.5) !important;
+    }
+}
+@media (max-width: 375px) and (max-height: 667px)  {
+    .digital-svg{
+        transform: translate(0,-113px) scale(0.5)!important
+    }
 }
 
 /* Card animation class */
@@ -644,7 +722,8 @@ canvas{
 .card-animation__vibe-card--three {
     background-color: #e0b478;
 }
-.digital-svg{
+
+.digital-svg {
     position: absolute;
     transform: translate(-404px, 380px);
     z-index: -10;
