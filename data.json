@@ -1,0 +1,40 @@
+ dynamic_data = {
+
+// **------------------------------------------------------MAIN PAGE DATA ----------------------------------------------------------------**
+
+    // ---- Hero section ----  
+    "section_1":{
+        "title":"OPENSORT",       //Note : you can change only text on right hand side of ":" i.e OPENSORT. Please Do not change keys i.e "section_1" or "title".
+        "text" :"",
+    },
+
+    // ---- Our mission section---- 
+    "section_2": {
+        "title":"Our mission",
+        "text": "At Opensort, we're driven to protect family privacy, ensuring trust, and enhancing togetherness. In a digital era, strong bonds matter. Our platform empowers families to thrive independently, fostering a society where closeness is valued over external dependencies. Join us in strengthening family connections.",
+    },
+
+    // ---- Feel Spirit section ---- 
+    "section_3": {
+        "title": "Feel the spirit of Family",
+        "text" : "Build closer connections with your loved ones, grasp a deeper understanding of their perspectives, and exchange meaningful aspects of your life throughout everyday situations and memorable occasions.",
+    },
+
+    // ---- Tale of family section ----
+    "section_4":{
+        "title":"Craft the tale of your Family",
+        "text":"Collect cherished tales, customs, favorite recipes, and more within your Family Encyclopedia. Preserve a legacy worth sharing with future generations",
+    },
+
+    // ---- Connecting familes digitally ----
+    "section_5":{
+        "title":"Connecting familes in digital harmony",
+        "text":"Loreum ipsum ipsum xxx abc ajaj ajsa due ajd wina da -kendjsa ",
+    },
+
+// **------------------------------------------------------ ABOUT US PAGE DATA ----------------------------------------------------------------**
+
+
+
+
+};
