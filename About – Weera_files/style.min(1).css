@@ -3855,6 +3855,19 @@ button {
     transform: translateZ(0);
     outline: 0
 }
+/* The Magic */
+.accordion:hover .accordion-item:hover .accordion-item-content,
+.accordion .accordion-item--default p {
+    height: 6em;
+}
+
+.accordion-item-content,
+.accordion:hover .accordion-item-content {
+    margin: 0;
+    height: 0;
+    overflow: hidden;
+    transition: height .25s;
+}
 
 .dropdown:focus-within .dropdown__list,
 .dropdown:hover .dropdown__list {
@@ -5076,6 +5089,111 @@ button {
     justify-content: center
 }
 
+
+
+.job .specs {
+    display: flex;
+    margin-bottom: 1rem;
+    padding-left: 0
+}
+
+.job .specs li {
+    margin-right: 1rem;
+    font-size: .875rem;
+    color: #586170;
+    list-style:none;
+    display: flex;
+}
+.max-width-medium {
+    max-width: 65.5rem;
+}
+.job .specs li i {
+    color: #767e8c
+}
+
+
+.security-items .border-box {
+    width: 48%;
+    min-height: 8.9375rem
+}
+
+@media (min-width:992px) {
+    .security-items .border-box {
+        width: 31%
+    }
+}
+
+@media (min-width:1200px) {
+    .security-items .border-box {
+        width: 23%;
+        padding: 1rem;
+        margin-right: 2%
+    }
+}
+
+.security-items .border-box h2 {
+    margin-bottom: .625rem
+}
+
+.security-items .border-box p {
+    display: none
+}
+
+@media (min-width:640px) {
+    .security-items .border-box p {
+        display: block
+    }
+}
+.border-box {
+    background: #fff;
+    border: .0625rem solid #dde2e8;
+    border-radius: 34px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column
+}
+
+.border-box a.learn-more {
+    margin-top: auto
+}
+
+@media (min-width:992px) {
+    .job {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 10%;
+    }
+}
+
+@media (min-width:992px) {
+    .border-box {
+        padding: 2.5rem
+    }
+}
+@media (min-width:992px) {
+    .pricing .pricing-items .border-box p {
+        font-size: 18px;
+        line-height: 26px
+    }
+}
+
+@media (min-width:992px) {
+.pricing .pricing-items .border-box {
+    width: 23%
+}
+}
+
+.pricing .pricing-items .border-box p {
+margin: 0
+}
+.pricing .pricing-items .border-box {
+width: 48%
+}  
 .story .container,
 .story__content {
     -webkit-box-align: center;
@@ -7545,9 +7663,9 @@ button {
 }
 
 .accordion {
-    margin: 0;
+    /* margin: 0;
     list-style: none;
-    padding: 0
+    padding: 0 */
 }
 
 .accordion__element {
@@ -9467,7 +9585,8 @@ screen and (min-width:0\0) {
     .btn {
         padding: 14px 20px;
         font-size: 18px;
-        line-height: 22px
+        line-height: 22px;
+        width: 100%;
     }
 
     .custom-input label input,
@@ -11673,7 +11792,7 @@ screen and (min-width:0\0) {
     }
 }
 
-@media (max-height:900px) and (max-width:1023px) {
+@media (max-height:800px) and (max-width:1023px) {
     .story__content {
         max-width: 554px
     }
@@ -11719,10 +11838,21 @@ screen and (min-width:0\0) {
         display: none
     }
 }
-
+@media (max-width:358px) {
+    .job .specs li {
+        font-size: 0.675rem !important;
+    }
+}
 @media (max-width:767px) {
     html {
         font-size: 4.26667vw
+    }
+    .job .specs li {
+        font-size: 0.775rem;
+    }
+    .accordion:hover .accordion-item:hover .accordion-item-content,
+    .accordion .accordion-item--default p {
+        height: 15em;
     }
 
     .reviews__nav {
@@ -11731,7 +11861,7 @@ screen and (min-width:0\0) {
     }
 
     .container {
-        padding: 0 1.25rem
+        padding: 0 1.25rem 1.25rem 1.25rem;
     }
 
     .header.is-open .header__burger span:nth-child(1) {
@@ -11965,11 +12095,12 @@ screen and (min-width:0\0) {
     }
 
     .btn {
-        font-size: 1.125rem;
+        font-size: 0.95rem;
         line-height: 1.375rem;
-        padding: .875rem 1.25rem
+        padding: .875rem 1.25rem;
+        width: 100%;
     }
-
+  
     .custom-input label input,
     .custom-textarea label input {
         min-height: 4.21875rem
