@@ -11668,6 +11668,12 @@ screen and (min-width:0\0) {
 }
 
 @media (max-height:900px) and (max-width:1023px) {
+    .mission__images {
+        width: 384px;
+        height: 377px;
+    }
+}
+@media (max-height:600px) and (max-width:1023px) {
     .story__content {
         max-width: 554px
     }
