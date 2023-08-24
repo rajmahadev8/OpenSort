@@ -11847,6 +11847,11 @@ screen and (min-width:0\0) {
     html {
         font-size: 4.26667vw
     }
+    h2{
+        font-size: 20px;
+        line-height: 40px;
+        margin-left: 7px;
+    }
     .job .specs li {
         font-size: 0.775rem;
     }
