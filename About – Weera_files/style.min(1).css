@@ -4091,12 +4091,14 @@ button {
 }
 
 .navigation__face-icon {
+   
     position: absolute;
     z-index: -1;
-    width: 15.9375rem;
-    height: 18.8125rem;
-    left: 14.6875rem;
-    bottom: 2.5rem
+    width: 31.9375rem;
+    height: 20.8125rem;
+    left: -35px;
+    bottom: 2.5rem;
+
 }
 
 .navigation__face-icon img {
@@ -12552,11 +12554,11 @@ screen and (min-width:0\0) {
     }
 
     .navigation__face-icon {
-        width: 11.1875rem;
+        width: 100vw;
         height: 13.1875rem;
-        left: auto;
-        right: -1.875rem;
-        bottom: 6.25rem
+        /* left: -26px; */
+        /* right: -1.875rem; */
+        bottom: 6.25rem;
     }
 
     .acquaintance__wrapper {
