@@ -1,4 +1,23 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* @font-face {
+	font-family: "NoeDisplay";
+	src: local("NoeDisplay"),
+	 url("./assets/fonts/NoeDisplay-Bold.ttf") format("truetype");
+	font-weight: bold;
+   }
+   @font-face {
+	font-family: "AnuratiRegular";
+	src: local("AnuratiRegular"),
+	 url("./assets/fonts/Anurati-Regular.otf") format("truetype");
+	font-weight: bold;
+   } */
+   @font-face {
+	font-family: "Gotham";
+	src: local("Gotham"),
+	 url("./assets/fonts/gotham/Gotham-Bold.otf") format("truetype");
+	font-weight: bold;
+   }
+   
 @-webkit-keyframes swiper-preloader-spin {
     to {
         -webkit-transform: rotate(360deg);
@@ -1248,13 +1267,12 @@ button.swiper-pagination-bullet {
     -ms-transform-origin: center bottom;
     transform-origin: center bottom
 }
-
+/* 
 @font-face {
     font-style: normal;
     font-weight: 300;
     font-family: "Gilroy";
     font-display: swap;
-    src: url(../fonts/gilroy-light.woff2) format("woff2"), url(../fonts/gilroy-light.woff) format("woff")
 }
 
 @font-face {
@@ -1262,7 +1280,6 @@ button.swiper-pagination-bullet {
     font-weight: 400;
     font-family: "Gilroy";
     font-display: swap;
-    src: url(../fonts/gilroy-regular.woff2) format("woff2"), url(../fonts/gilroy-regular.woff) format("woff")
 }
 
 @font-face {
@@ -1270,7 +1287,6 @@ button.swiper-pagination-bullet {
     font-weight: 800;
     font-family: "Gilroy";
     font-display: swap;
-    src: url(../fonts/gilroy-extrabold.woff2) format("woff2"), url(../fonts/gilroy-extrabold.woff) format("woff")
 }
 
 @font-face {
@@ -1303,7 +1319,7 @@ button.swiper-pagination-bullet {
     font-family: "";
     font-display: swap;
     src: url(../fonts/.woff2) format("woff2"), url(../fonts/.woff) format("woff")
-}
+} */
 
 *,
 ::after,

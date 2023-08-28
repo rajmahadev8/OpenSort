@@ -6,7 +6,7 @@ dynamic_data = {
     // ---- Hero section ----  
     "section_1": {
         "title": "OPENSORT", //Note : you can change only text on right hand side of ":" i.e OPENSORT. Please Do not change keys i.e "section_1" or "title".
-        "text": "",
+        "text": "Uniting Families, Cultivating Joy Within",
     },
     // ---- Our mission section---- 
     "section_2": {
