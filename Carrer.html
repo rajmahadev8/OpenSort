@@ -10,14 +10,7 @@
 
   <script type="text/javascript" src="./data.json"></script>
 
-  <!-- Google Tag Manager -->
-  <script type="text/javascript" id="www-widgetapi-script" src="./About – Weera_files/www-widgetapi.js"
-    async=""></script>
-  <script src="./About – Weera_files/iframe_api" id="youtube-api"></script>
-  <script async="" src="./About – Weera_files/tag.js"></script>
-  <script async="" src="./About – Weera_files/gtm.js"></script>
-  <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-5C7GXJK');</script>
-  <!-- End Google Tag Manager -->
+ 
   <link rel="stylesheet" href="./About – Weera_files/yoora-cms.webflow.e7d3fdae3.css">
   <link rel="apple-touch-icon" sizes="180x180" href="./Weera_files/logo_icon_new.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./Weera_files/logo_icon_new.png">
@@ -625,7 +618,9 @@
           <div class="features-page__footer-wrapper show" data-animate="">
             <footer class="footer fib" style="animation-duration: 1s; animation-delay: 0s;">
               <div class="container">
-                <p class="footer__copyright">© 2023 Opensort</p>
+                <p class="footer__copyright"><span>©
+                  <script>document.write(new Date().getFullYear());</script> Clueinit LTD
+                </span></p>
                 <div class="footer__wrapper">
                   <ul class="footer__links">
                     <li class="footer__links-item"><a class="footer__link" href="./Opensort.html"
@@ -673,9 +668,7 @@
         class="btn__content">OK</span></button>
   </div> -->
   <script src="./About – Weera_files/index.js" id="swv-js"></script>
-  <script id="contact-form-7-js-extra">
-    var wpcf7 = { "api": { "root": "https:\/\/weera.family\/wp-json\/", "namespace": "contact-form-7\/v1" } };
-  </script>
+  
   <script src="./About – Weera_files/index(1).js" id="contact-form-7-js"></script>
   <script src="./About – Weera_files/vendor.min.js" id="vendorjs-js"></script>
   <script src="./About – Weera_files/main.min.js" id="mainjs-js"></script>
@@ -702,11 +695,12 @@
     var jobDescription = dynamic_data.section_carrers_2[i].job_description;
     var jobSkill = dynamic_data.section_carrers_2[i].job_skills;
     var jobQualification = dynamic_data.section_carrers_2[i].job_qualification;
+    var jobLink = dynamic_data.section_carrers_2[i].job_link;
 
     var jobDiv = document.createElement("div");
     jobDiv.classList.add("accordion");
 
-    jobDiv.innerHTML = '<div class="job border-box accordion"><div class="job-info accordion-item"><h2 class="h5">'+jobTitle+'</h2><ul class="specs"><li><img width="24" height="24" src="https://img.icons8.com/laces/64/marker.png" alt="marker" />'+jobLocation+'</li><li><img width="24" height="24" src="https://img.icons8.com/laces/64/future.png" alt="future" /></i>'+jobTime+'</li></ul><p class="idwhoasn">'+jobAbstract+'</p><p class="accordion-item-content"><b>Job Description:</b><br />'+jobDescription+'</p><p class="accordion-item-content"><b>Skills Required:</b><br />'+jobSkill+'</p><p><b>Qualification:</b> <br />'+jobQualification+'</p><button class="btn" type="button"><span class="btn__content">Apply</span></button></div></div>';
+    jobDiv.innerHTML = '<div class="job border-box accordion"><div class="job-info accordion-item"><h2 class="h5">'+jobTitle+'</h2><ul class="specs"><li><img width="24" height="24" src="https://img.icons8.com/laces/64/marker.png" alt="marker" />'+jobLocation+'</li><li><img width="24" height="24" src="https://img.icons8.com/laces/64/future.png" alt="future" /></i>'+jobTime+'</li></ul><p class="idwhoasn">'+jobAbstract+'</p><p class="accordion-item-content"><b>Job Description:</b><br />'+jobDescription+'</p><p class="accordion-item-content"><b>Skills Required:</b><br />'+jobSkill+'</p><p><b>Qualification:</b> <br />'+jobQualification+'</p><a href="'+jobLink+'"><button class="btn" type="button"><span class="btn__content">Apply</span></button></a></div></div>';
     jobSection.appendChild(jobDiv);
   }
 

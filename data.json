@@ -47,6 +47,7 @@ dynamic_data = {
     "section_about_3": {
         "name": "Gladius",
         "position": "Founder & CEO",
+        "image":"./founder_Image/avatar.png",
         "goal": "Our goal is to build a software that not only revolutionizes the way families interact with technology but also strengthens family bonds and empowers individuals in the digital age",
     },
     // --- founder's story ----
@@ -54,6 +55,7 @@ dynamic_data = {
         "text_para_1": "Meet our Founder and CEO, Gladius. With a rich tapestry of experiences and an infectious enthusiasm for technology, he stands as an emblem of innovative leadership. Gladius's unique journey is as extraordinary as the digital landscape he thrives in, a remarkable blend of tradition and modernity that has been instrumental in shaping his visionary approach. Born into a fishermen tribe in a serene fishing village of India, Gladius hails from a humble background. His early life amidst the raw rhythms of the sea instilled in him a deep respect for tradition and a strong sense of community. These roots continue to inspire his vision of leveraging technology to bring families together. With a formidable 20-year career in information security, Gladius is no stranger to the dynamic world of technology. His expertise is a culmination of experiences gleaned from his extensive travel and work in India, the Middle East, the UK, and Spain. This cross-cultural exposure has honed his global perspective and has given him an edge in understanding the diverse technological needs of different regions.",
         "text_para_2": "Gladius's entrepreneurial journey is impressive, to say the least. He has launched two startups and was a part of a unicorn, bringing in a unique blend of leadership, foresight, and technological expertise. His deep-seated interest in the intersection of culture and technology drove him to create platforms that foster familial connections in an increasingly digitized world. Through Gladius's leadership, our company is poised to continue pioneering cutting-edge technologies and tools that bridge geographical distances and keep families connected. His vision does not stop at creating technological solutions; he emphasizes creating meaningful connections through these platforms. Indeed, Gladius's life and work epitomize a remarkable journey from a quiet fishing village in India to the bustling world of global tech entrepreneurship. His deep-seated values of community and connection form the cornerstone of our company's mission - to harness the power of technology in making the world feel more like home. His story is a testament to the incredible power of dreaming big and working tirelessly to transform those dreams into reality. Join us in celebrating the man who navigates the vast sea of technology with the tenacity of a fisherman and the ingenuity of a world-class tech entrepreneur. Gladius - a leader, a visionary, and the driving force behind our mission to bring families closer together, no matter where they are.",
     },
+
 
     // **------------------------------------------------------CARRERS PAGE DATA ----------------------------------------------------------------**
 
@@ -72,7 +74,7 @@ dynamic_data = {
             "job_description":"We are looking for a highly energetic and collaborative Developer, The ideal candidate should be able to design, develop, maintain , extend applications and implement projects on different platforms like Flutter/Kotlin/Swift/Objective C/React Native etc.",
             "job_skills":"Good communication & Interpersonal skills & logical thinking and interpretations.<br>Write well-designed, testable, efficient code using the latest development best practices. <br>The ability to organize and follow-up on multiple tasks/details with accuracy and timeliness Strong problem solving and decision making.<br>",
             "job_qualification":"B.tech, M.tech, MSC, MCA",
-
+            "job_link":"https://opensort.io/job1",
         },
         {
             "job_title": "Android Developer",
@@ -82,6 +84,7 @@ dynamic_data = {
             "job_description":"We are looking for a highly energetic and collaborative Developer, The ideal candidate should be able to design, develop, maintain , extend applications and implement projects on different platforms like Flutter/Kotlin/Swift/Objective C/React Native etc.",
             "job_skills":"Good communication & Interpersonal skills & logical thinking and interpretations.<br>Write well-designed, testable, efficient code using the latest development best practices. <br>The ability to organize and follow-up on multiple tasks/details with accuracy and timeliness Strong problem solving and decision making.<br>",
             "job_qualification":"B.tech, M.tech, MSC, MCA",
+            "job_link":"https://opensort.io/job1",
 
         }, {
             "job_title": "Full-Stack Web Developer",
@@ -91,6 +94,7 @@ dynamic_data = {
             "job_description":"We are looking for a highly energetic and collaborative Developer, The ideal candidate should be able to design, develop, maintain , extend applications and implement projects on different platforms like Flutter/Kotlin/Swift/Objective C/React Native etc.",
             "job_skills":"Good communication & Interpersonal skills & logical thinking and interpretations.<br>Write well-designed, testable, efficient code using the latest development best practices. <br>The ability to organize and follow-up on multiple tasks/details with accuracy and timeliness Strong problem solving and decision making.<br>",
             "job_qualification":"B.tech, M.tech, MSC, MCA",
+            "job_link":"https://opensort.io/job1",
 
         }, {
             "job_title": "Digital Marketing",
@@ -100,7 +104,17 @@ dynamic_data = {
             "job_description":"We are looking for a highly energetic and collaborative Developer, The ideal candidate should be able to design, develop, maintain , extend applications and implement projects on different platforms like Flutter/Kotlin/Swift/Objective C/React Native etc.",
             "job_skills":"Good communication & Interpersonal skills & logical thinking and interpretations.<br>Write well-designed, testable, efficient code using the latest development best practices. <br>The ability to organize and follow-up on multiple tasks/details with accuracy and timeliness Strong problem solving and decision making.<br>",
             "job_qualification":"B.tech, M.tech, MSC, MCA",
-
+            "job_link":"https://opensort.io/job1",
         },
     ],
+
+
+    // **------------------------------------------------------CONTACT US PAGE DATA ----------------------------------------------------------------**
+    
+    "section_contact_1":{
+        "address":"34 Barker Rd, Chertsey KT16 9HX, United Kingdom",
+        "general_email":"hello@opensort.io",
+        "support_email":"support@opensort.io",
+    }
+
 };

@@ -9,14 +9,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script type="text/javascript" src="./data.json"></script>
 
-  <!-- Google Tag Manager -->
-  <script type="text/javascript" id="www-widgetapi-script" src="./About – Weera_files/www-widgetapi.js"
-    async=""></script>
-  <script src="./About – Weera_files/iframe_api" id="youtube-api"></script>
-  <script async="" src="./About – Weera_files/tag.js"></script>
-  <script async="" src="./About – Weera_files/gtm.js"></script>
-  <script>(function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-5C7GXJK');</script>
-  <!-- End Google Tag Manager -->
+  
   <link rel="stylesheet" href="./About – Weera_files/yoora-cms.webflow.e7d3fdae3.css">
   <link rel="apple-touch-icon" sizes="180x180" href="./Weera_files/logo_icon_new.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./Weera_files/logo_icon_new.png">
@@ -635,7 +628,7 @@
                 <div class="w-layout-grid grid _2">
                   <div id="w-node-_51b46da6-c758-e8f9-2f40-cc6852414f7a-c5fac3f7">
                     <div class="revenue-author-wrap">
-                      <div class="avatar"><img src="./About – Weera_files/6400bbbc4cb80554a420bfe2_Oval.png"
+                      <div class="avatar"><img id="riuaw" 
                           loading="lazy" alt="Oval "></div>
                       <div>
                         <div class="fs-16" id="fundrjaj"></div>
@@ -731,13 +724,13 @@
                         <h1>Have a question? Our team is happy to assist you</h1>
                         <div class="spacer _32"></div>
                         <div class="max-423">
-                          <p class="op-70">Ask about pricing, implementation, or anything else. Our highly trained
+                          <p class="op-70">Ask about Familes, communities, or anything else. Our highly trained
                             reps are standing by, ready to help.</p>
                         </div>
                         <div class="spacer _64"></div>
                         <div class="bottom-line"></div>
                         <div class="spacer _48"></div>
-                        <div class="button-wrap"><a href="/about#" class="button-white w-inline-block">
+                        <div class="button-wrap"><a href="./Contact.html" class="button-white w-inline-block">
                             <div class="link-gap-32">
                               <div>Contact Us</div><img
                                 src="./About – Weera_files/63ff7b65be7f5f42760273c6_Shape (1).png" loading="lazy"
@@ -758,7 +751,9 @@
           <div class="features-page__footer-wrapper show" data-animate="">
             <footer class="footer fib" style="animation-duration: 1s; animation-delay: 0s;">
               <div class="container">
-                <p class="footer__copyright">© 2023 Opensort</p>
+                <p class="footer__copyright"><span>©
+                  <script>document.write(new Date().getFullYear());</script> Clueinit LTD
+                </span></p>
                 <div class="footer__wrapper">
                   <ul class="footer__links">
                     <li class="footer__links-item"><a class="footer__link" href="./Opensort.html"
@@ -805,9 +800,6 @@
         class="btn__content">OK</span></button>
   </div> -->
   <script src="./About – Weera_files/index.js" id="swv-js"></script>
-  <script id="contact-form-7-js-extra">
-    var wpcf7 = { "api": { "root": "https:\/\/weera.family\/wp-json\/", "namespace": "contact-form-7\/v1" } };
-  </script>
   <script src="./About – Weera_files/index(1).js" id="contact-form-7-js"></script>
   <script src="./About – Weera_files/vendor.min.js" id="vendorjs-js"></script>
   <script src="./About – Weera_files/main.min.js" id="mainjs-js"></script>
@@ -834,11 +826,14 @@
     console.log(dynamic_data.section_about_3.goal)
     document.querySelector("#fundrjaj").innerHTML = dynamic_data.section_about_3.name;
     document.querySelector("#ksduwk").innerHTML = dynamic_data.section_about_3.position;
+    document.querySelector("#riuaw").src = dynamic_data.section_about_3.image;
     document.querySelector("#w-node-_8600bfa6-168e-0037-c0b3-1f34dfe7a7a1-c5fac3f7").innerHTML = "“"+dynamic_data.section_about_3.goal+"”";
 
     // Founder's story
     document.querySelector("#bahdue").innerHTML = dynamic_data.section_about_4.text_para_1;
     document.querySelector("#ieudja").innerHTML = dynamic_data.section_about_4.text_para_2;
+
+    
   </script>
 
 </body>
