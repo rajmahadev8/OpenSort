@@ -2624,11 +2624,11 @@ blockquote {
 }
 
 .hero-input-email:focus-visible {
-  border-color: #00cc61;
+  border-color: #cc9600;
 }
 
 .hero-input-email[data-wf-focus-visible] {
-  border-color: #00cc61;
+  border-color: #cc9600;
 }
 
 .hero-input-email.message-box {

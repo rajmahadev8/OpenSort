@@ -4174,7 +4174,7 @@ button {
     flex-shrink: 0;
     margin: 0 0 48px;
     font-weight: 800;
-    font-size: 6.125rem;
+    font-size: 3.125rem;
     line-height: 100%;
     text-align: center;
     color:  #e88a77;
@@ -4666,8 +4666,8 @@ button {
 
 .bottom-block {
     position: fixed;
-    bottom: 2.5625rem;
-    left: 0;
+    bottom: 4.5625rem;
+    right: 2rem;
     z-index: 99;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -4692,7 +4692,7 @@ button {
 }
 
 .bottom-block__desktop .bottom-block__app-link:nth-of-type(1) {
-    margin-right: 1.375rem
+    margin-right: 2.375rem
 }
 
 .bottom-block__desktop .bottom-block__app-link:nth-of-type(1) img {
@@ -8424,7 +8424,7 @@ screen and (min-width:0\0) {
 
 @media (max-height:850px) and (min-width:1024px) {
     .bottom-block {
-        bottom: 1.9375rem
+        bottom: 4.9375rem
     }
 }
 
@@ -8519,7 +8519,7 @@ screen and (min-width:0\0) {
     .acquaintance__title {
         max-width: 38.125rem;
         margin: 0 0 5.3vh;
-        font-size: 4.875rem
+        font-size: 2.875rem
     }
 
     .acquaintance__title-logo {
@@ -8751,7 +8751,7 @@ screen and (min-width:0\0) {
     .acquaintance__title {
         max-width: 35rem;
         margin: 0 0 2.7vh;
-        font-size: 5.25rem
+        font-size: 2.25rem
     }
 
     .acquaintance__description {
@@ -8879,7 +8879,7 @@ screen and (min-width:0\0) {
 
 @media (max-height:1080px) and (min-width:1441px) {
     .bottom-block {
-        bottom: 2.7vh
+        bottom: 8.7vh
     }
 }
 
@@ -9947,7 +9947,7 @@ screen and (min-width:0\0) {
 
     .acquaintance__title {
         margin: 0 0 30px;
-        font-size: 70px
+        font-size: 30px
     }
 
     .acquaintance__title-text--transform {
@@ -10101,14 +10101,17 @@ screen and (min-width:0\0) {
         top: 30px;
         right: 98px
     }
+    .acquaintance__next-screen-button{
+        left: 45% !important;
+    }
 
     .bottom-block {
-        bottom: 32px;
+        bottom: 75px;
         -webkit-transform: translateY(calc(100% + 32px));
         -ms-transform: translateY(calc(100% + 32px));
         transform: translateY(calc(100% + 32px))
     }
-
+    
     .bottom-block__desktop .bottom-block__app-link:nth-of-type(1) img {
         width: 143px;
         height: 46px
@@ -12459,7 +12462,7 @@ screen and (min-width:0\0) {
 
     .acquaintance__title {
         margin: 0 0 1.25rem;
-        font-size: 3rem
+        font-size: 1.3rem
     }
 
     .acquaintance__title-text img {
@@ -12640,6 +12643,9 @@ screen and (min-width:0\0) {
 
     .bottom-block__desktop {
         width: 100%
+    }
+    .desktop{
+        display: none;
     }
 
     .bottom-block__desktop .bottom-block__app-link:nth-of-type(1) {
