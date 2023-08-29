@@ -47,7 +47,7 @@ dynamic_data = {
     "section_about_3": {
         "name": "Gladius",
         "position": "Founder & CEO",
-        "image":"./founder_Image/avatar.png",
+        "image":"./founder_Image/avatar.jpeg",
         "goal": "Our goal is to build a software that not only revolutionizes the way families interact with technology but also strengthens family bonds and empowers individuals in the digital age",
     },
     // --- founder's story ----

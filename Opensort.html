@@ -433,8 +433,39 @@
   </style>
 </head>
 
-<body style="overflow: hidden; position: fixed; height: 100vh;">
+<body id="page-top" style="overflow: hidden; position: fixed; height: 100vh;">
+  <section id="preloader-section">
+    <div id="preloader">
+        <div id="ctn-preloader" class="ctn-preloader">
+            <div class="animation-preloader">
+                
+                <!-- Spinner -->
+                <div class="spinner"></div>
+                
+                <!-- Start: Text Loading -->
+                <div class="txt-loading">
+                    <span data-text-preloader="O" class="letters-loading">O</span>
+                    <span data-text-preloader="P" class="letters-loading">P</span>
+                    <span data-text-preloader="E" class="letters-loading">E</span>
+                    <span data-text-preloader="N" class="letters-loading">N</span>
+                    <span data-text-preloader="S" class="letters-loading">S</span>
+                    <span data-text-preloader="O" class="letters-loading">O</span>
+                    <span data-text-preloader="R" class="letters-loading">R</span>
+                    <span data-text-preloader="T" class="letters-loading">T</span>
+                    
+                </div>
+                <!-- End: Text Loading -->
 
+            </div>
+
+            <!-- Start: Preloader sides - Model 1 -->
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+            <!-- End: Preloader sides - Model 1 -->
+
+        </div>
+    </div>
+</section>
   <div class="wrapper wrapper--full-screen" data-wrapper="">
     <main>
       <h1 class="visually-hidden">Project Opensort</h1>
@@ -2215,6 +2246,55 @@
     document.querySelector(".connections__text").innerHTML = dynamic_data.section_5.text;
 
 
+
+    $(document).ready(preloderFunction());
+    
+    
+    
+function preloderFunction() {
+  
+    setTimeout(function() {
+        
+        // Force Main page to show from the Start(Top) even if user scroll down on preloader - Primary (Before showing content)
+       
+        // Model 1 - Fast            
+        document.getElementById("page-top").scrollIntoView();
+        
+        // Model 2 - Smooth             
+        // document.getElementById("page-top").scrollIntoView({behavior: 'smooth'});
+                
+        
+    
+        
+        // Removing Preloader:
+        
+        $('#ctn-preloader').addClass('loaded');  
+        // Once the preloader has finished, the scroll appears 
+        $('body').removeClass('no-scroll-y');
+
+        if ($('#ctn-preloader').hasClass('loaded')) {
+            // It is so that once the preloader is gone, the entire preloader section will removed
+            $('#preloader').delay(1000).queue(function() {
+                $(this).remove();
+                
+                // If you want to do something after removing preloader:
+                afterLoad();
+                
+            });
+        }
+    }, 3000);
+}
+
+
+
+function afterLoad() {
+    // After Load function body!
+}
+
+
+
+
+//Code by ARiyou2000
 
   </script>
 

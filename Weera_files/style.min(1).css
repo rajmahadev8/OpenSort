@@ -11692,7 +11692,7 @@ screen and (min-width:0\0) {
         height: 377px;
     }
 }
-@media (max-height:600px) and (max-width:1023px) {
+@media (max-height:500px) and (max-width:1023px) {
     .story__content {
         max-width: 554px
     }
@@ -11744,7 +11744,9 @@ screen and (min-width:0\0) {
     html {
         font-size: 4.26667vw
     }
-
+    .bottom-block__next-screen{
+        right: 0;
+    }
     .reviews__nav {
         -webkit-transform: translate3d(-50%, 0, 1px) !important;
         transform: translate3d(-50%, 0, 1px) !important
