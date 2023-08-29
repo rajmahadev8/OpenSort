@@ -512,7 +512,7 @@
             </nav>
             <ul class="navigation__socials socials-list">
               <li class="socials-list__item">
-                <a class="socials-list__link" href="https://www.linkedin.com/" target="_blank"
+                <a class="socials-list__link" id="rlaya" target="_blank"
                   aria-label="Opensort on linkedin">
                   <img width="50" height="50" src="https://img.icons8.com/ios/50/linkedin.png" alt="linkedin" />
 
@@ -551,29 +551,30 @@
                 <p class="footer__copyright"><span>©
                     <script>document.write(new Date().getFullYear());</script> Clueinit LTD
                   </span></p>
-                <div class="footer__wrapper">
-                  <ul class="footer__links">
-                    <li class="footer__links-item"><a class="footer__link" href="./Opensort.html"
-                        data-text="Home">Home</a></li>
-                    <li class="footer__links-item footer__links-item--faq"><a class="footer__link" href="./About.html"
-                        data-text="Terms and Conditions">Terms and Conditions</a></li>
-                    <li class="footer__links-item footer_links-item--always"><a class="footer__link"
-                        href="/privacy-policy/" data-text="Privacy Policy" target="_blank">Privacy
-                        Policy</a></li>
-                    <li class="footer__links-item footer_links-item--always"><a class="footer__link" href="./About.html"
-                        data-text="About Opensort" target="_blank">About Opensort</a></li>
-                    <li class="footer__links-item footer_links-item--always"><a class="footer__link" href=""
-                        data-text="Company information" target="_blank">Company
-                        information</a></li>
-                  </ul>
-                </div>
+                  <div class="footer__wrapper">
+                    <ul class="footer__links">
+                      <li class="footer__links-item"><a class="footer__link" href="./Opensort.html">Home</a></li>
+                      <li class="footer__links-item footer__links-item--faq"><a class="footer__link"
+                          href="./Carrer.html">Carrers</a></li>
+                      <li class="footer__links-item footer_links-item--always"><a class="footer__link"
+                          href="./PrivacyPolicy.html" target="_blank">Privacy
+                          Policy</a></li>
+                      <li class="footer__links-item footer_links-item--always"><a class="footer__link" href="./About.html"
+                          target="_blank">About</a></li>
+                          <li class="footer__links-item footer_links-item--always"><a class="footer__link" href="./Contact.html"
+                          >Contact</a></li>
+                      <li class="footer__links-item footer_links-item--always"><a class="footer__link" id="keia"
+                          target="_blank">Company
+                          information</a></li>
+                    </ul>
+                  </div>
                 <div class="footer__support">
-                  <a class="footer__link" href="mailto:support@opensort.io" data-text="support@opensort.io"
-                    target="_blank">support@opensort.io</a>
+                  <a class="footer__link" id="ruoae"
+                    target="_blank"></a>
                 </div>
                 <ul class="footer__socials socials-list">
                   <li class="socials-list__item">
-                    <a class="socials-list__link" href="https://www.linkedin.com/" target="_blank"
+                    <a class="socials-list__link" id="fiwa" target="_blank"
                       aria-label="Opensort on linkedin">
                       <img width="50" height="50" src="https://img.icons8.com/ios/50/linkedin.png" alt="linkedin" />
 
@@ -610,6 +611,13 @@
     s.appendChild(txt);
     document.querySelector("#w-node-b289526d-b75a-5ecb-2413-a60e9c05aef9-c5fac3f7").appendChild(s);
     document.querySelector("#w-node-_7656d5da-7f08-6e42-cc5b-5d5bba5993fa-c5fac3f7").innerHTML = dynamic_data.section_carrers_1.text;
+    document.querySelector('#fiwa').href = dynamic_data.section_socials_1.linkedin;
+    document.querySelector('#keia').href = dynamic_data.section_socials_1.company_information;
+    document.querySelector('#rlaya').href = dynamic_data.section_socials_1.company_information;
+
+    document.querySelector('#ruoae').href = "mailto:"+dynamic_data.section_contact_1.support_email;
+    document.querySelector('#ruoae').innerHTML = dynamic_data.section_contact_1.support_email;
+
 
     // jobs
     var jobSection = document.getElementById('ajwdo');
@@ -629,6 +637,7 @@
       jobDiv.innerHTML = '<div class="job border-box accordion"><div class="job-info accordion-item"><h2 class="h5">' + jobTitle + '</h2><ul class="specs"><li><img width="24" height="24" src="https://img.icons8.com/laces/64/marker.png" alt="marker" />' + jobLocation + '</li><li><img width="24" height="24" src="https://img.icons8.com/laces/64/future.png" alt="future" /></i>' + jobTime + '</li></ul><p class="idwhoasn">' + jobAbstract + '</p><p class="accordion-item-content"><b>Job Description:</b><br />' + jobDescription + '</p><p class="accordion-item-content"><b>Skills Required:</b><br />' + jobSkill + '</p><p><b>Qualification:</b> <br />' + jobQualification + '</p><a href="' + jobLink + '"><button class="btn" type="button"><span class="btn__content">Apply</span></button></a></div></div>';
       jobSection.appendChild(jobDiv);
     }
+
 
   </script>
 </body>

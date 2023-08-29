@@ -8292,7 +8292,7 @@ screen and (min-width:0\0) {
     .footer__link:hover,
     .header__sign-in-link:focus,
     .header__sign-in-link:hover {
-        color: transparent
+        /* color: transparent */
     }
 
     .header__sign-in-link:focus::before,

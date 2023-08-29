@@ -381,8 +381,6 @@
       line-height: 1.6;
     }
   </style>
-  <link rel="stylesheet" id="contact-form-7-css" href="./Weera_files/styles.css" media="all">
-  <link rel="stylesheet" id="weera-style-css" href="./Weera_files/style.css" media="all">
   <link rel="stylesheet" id="style-main-css" href="./Weera_files/style.min(1).css" media="all">
   <link rel="stylesheet" href="./Weera_files/custom.css" />
 
@@ -539,7 +537,7 @@
             </nav>
             <ul class="navigation__socials socials-list">
               <li class="socials-list__item">
-                <a class="socials-list__link" href="https://www.linkedin.com/" target="_blank"
+                <a class="socials-list__link" id="rlaya" target="_blank"
                   aria-label="Opensort on linkedin">
                   <img width="51" height="51" src="https://img.icons8.com/ios/50/linkedin.png" alt="linkedin" />
 
@@ -2171,27 +2169,28 @@
                   </span></p>
                 <div class="footer__wrapper">
                   <ul class="footer__links">
-                    <li class="footer__links-item"><a class="footer__link" href="./Opensort.html"
-                        data-text="Home">Home</a></li>
-                    <li class="footer__links-item footer__links-item--faq"><a class="footer__link" href="./About.html"
-                        data-text="Terms and Conditions">Terms and Conditions</a></li>
+                    <li class="footer__links-item"><a class="footer__link" href="./Opensort.html">Home</a></li>
+                    <li class="footer__links-item footer__links-item--faq"><a class="footer__link"
+                        href="./Carrer.html">Carrers</a></li>
                     <li class="footer__links-item footer_links-item--always"><a class="footer__link"
-                        href="/privacy-policy/" data-text="Privacy Policy" target="_blank">Privacy
+                        href="./PrivacyPolicy.html" target="_blank">Privacy
                         Policy</a></li>
                     <li class="footer__links-item footer_links-item--always"><a class="footer__link" href="./About.html"
-                        data-text="About Opensort" target="_blank">About Opensort</a></li>
-                    <li class="footer__links-item footer_links-item--always"><a class="footer__link" href=""
-                        data-text="Company information" target="_blank">Company
+                        target="_blank">About</a></li>
+                        <li class="footer__links-item footer_links-item--always"><a class="footer__link" href="./Contact.html"
+                        >Contact</a></li>
+                    <li class="footer__links-item footer_links-item--always"><a class="footer__link" id="keia"
+                        target="_blank">Company
                         information</a></li>
                   </ul>
                 </div>
                 <div class="footer__support">
-                  <a class="footer__link" data-text="support@opensort.io" href="mailto:support@opensort.io"
-                    target="_blank">support@Opensort.io</a>
+                  <a class="footer__link" id="ruoae"
+                    target="_blank"></a>
                 </div>
                 <ul class="footer__socials socials-list">
                   <li class="socials-list__item">
-                    <a class="socials-list__link" href="https://www.linkedin.com/" target="_blank"
+                    <a class="socials-list__link" id="fiwoa" target="_blank"
                       aria-label="Opensort on linkedin">
                       <img width="50" height="50" src="https://img.icons8.com/ios/50/linkedin.png" alt="linkedin" />
 
@@ -2245,7 +2244,13 @@
     document.querySelector(".connections__title").innerHTML = dynamic_data.section_5.title;
     document.querySelector(".connections__text").innerHTML = dynamic_data.section_5.text;
 
-
+    // socials
+    document.querySelector('#fiwoa').href = dynamic_data.section_socials_1.linkedin;
+    document.querySelector('#rlaya').href = dynamic_data.section_socials_1.company_information;
+    document.querySelector('#keia').href = dynamic_data.section_socials_1.company_information;
+    
+    document.querySelector('#ruoae').href = "mailto:"+dynamic_data.section_contact_1.support_email;
+    document.querySelector('#ruoae').innerHTML = dynamic_data.section_contact_1.support_email;
 
     $(document).ready(preloderFunction());
     

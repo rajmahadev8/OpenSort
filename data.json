@@ -47,7 +47,7 @@ dynamic_data = {
     "section_about_3": {
         "name": "Gladius",
         "position": "Founder & CEO",
-        "image":"./founder_Image/avatar.jpeg",
+        "image":"./founder_Image/avatar.jpg",
         "goal": "Our goal is to build a software that not only revolutionizes the way families interact with technology but also strengthens family bonds and empowers individuals in the digital age",
     },
     // --- founder's story ----
@@ -115,6 +115,16 @@ dynamic_data = {
         "address":"34 Barker Rd, Chertsey KT16 9HX, United Kingdom",
         "general_email":"hello@opensort.io",
         "support_email":"support@opensort.io",
+    },
+
+    //**------------------------------------ SOCIALS AND EXTRAS---------------------------------------------
+    "section_socials_1":{
+        "mobile":"+12 3456 7890",
+        "linkedin":"https://www.linkedin.com/company/opensort/",
+        "company_information":"https://find-and-update.company-information.service.gov.uk/company/12064920/more",
+        
+
+        
     }
 
 };
