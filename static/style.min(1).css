@@ -11861,6 +11861,7 @@ screen and (min-width:0\0) {
     }
     .job .specs li {
         font-size: 0.775rem;
+        max-width: 58%;
     }
     .accordion:hover .accordion-item:hover .accordion-item-content,
     .accordion .accordion-item--default p {
@@ -13670,14 +13671,19 @@ screen and (min-width:0\0) {
     }
 
     .features-list--about {
-        padding-top: 4.375rem;
+        padding-top: 2.375rem;
         padding-bottom: 1.8125rem
     }
-
+    #w-node-_51b46da6-c758-e8f9-2f40-cc6852414f7a-c5fac3f7{
+        justify-content: center;
+    }
+   
     .features-list--about .features-list__item {
         padding: 20rem 0 3.5625rem
     }
-
+    p{
+        text-align: justify;
+    }
     .features-list--about .features-list__content {
         margin: 0
     }
@@ -13743,7 +13749,8 @@ screen and (min-width:0\0) {
 
     .learn-more__title {
         margin: 0 0 1.875rem;
-        font-size: 1.75rem
+        font-size: 1.75rem;
+        text-align: center !important;
     }
 
     .learn-more__links {

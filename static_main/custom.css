@@ -629,7 +629,7 @@ canvas {
 
 .story__wrapper::after {
     position: absolute;
-    content: url('../Weera_files/hanging-ceiling-lamp.png');
+    content: url('../static_main/hanging-ceiling-lamp.png');
     height: 200px;
     width: 200px;
     top: 0;
