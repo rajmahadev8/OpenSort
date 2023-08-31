@@ -923,6 +923,8 @@ canvas {
 .logo_loader{
     width: 100px;
     margin: 0 auto;
+    display:flex;
+    justify-content: center;
 
   }
   .logo_loader>img{
