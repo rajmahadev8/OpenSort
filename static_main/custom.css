@@ -920,6 +920,26 @@ canvas {
   -webkit-transition: 3.5s 0.1s all cubic-bezier(0.1, 0.1, 0.1, 2.000);
   transition: 3.5s 0.1s all cubic-bezier(0.1, 0.1, 0.1, 2.000);
 }
+.logo_loader{
+    width: 100px;
+    margin: 0 auto;
+
+  }
+  .logo_loader>img{
+    scale: 1.8;
+    margin-bottom: 60px;      
+    /* transition: 0.4s; */
+    animation: logoanim 0.7s linear 0s infinite ;
+    animation-direction: alternate;
+  }
+  @keyframes logoanim {
+    0%{
+      scale: 1.8;
+    }
+    100%{
+      scale: 2;
+    }
+  }
 
 /* Preloader Animation */
 @-webkit-keyframes spinner {
@@ -996,4 +1016,25 @@ canvas {
 	.ctn-preloader .animation-preloader .txt-loading {
 	  font: bold 2em 'Montserrat', sans-serif;
 	}
+    .logo_loader{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+      }
+      .logo_loader>img{
+        scale: 1;
+        margin-bottom: 30px;      
+        /* transition: 0.4s; */
+        animation: logoanim 0.7s linear 0s infinite ;
+        animation-direction: alternate;
+      }
+      @keyframes logoanim {
+        0%{
+          scale: 1;
+        }
+        100%{
+          scale: 1.2;
+        }
+      }
 }
