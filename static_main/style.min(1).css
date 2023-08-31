@@ -1,22 +1,91 @@
 
-/* @font-face {
-	font-family: "NoeDisplay";
-	src: local("NoeDisplay"),
-	 url("./assets/fonts/NoeDisplay-Bold.ttf") format("truetype");
-	font-weight: bold;
-   }
-   @font-face {
-	font-family: "AnuratiRegular";
-	src: local("AnuratiRegular"),
-	 url("./assets/fonts/Anurati-Regular.otf") format("truetype");
-	font-weight: bold;
-   } */
-   @font-face {
-	font-family: "Gotham";
-	src: local("Gotham"),
-	 url("./assets/fonts/gotham/Gotham-Bold.otf") format("truetype");
-	font-weight: bold;
-   }
+@font-face {
+    font-family: 'Satoshi variable';
+    src: url('https://assets.website-files.com/63f7502c4388daf94c697fe6/63f75085be0d233a981e497e_Satoshi-Variable.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('https://assets.website-files.com/63f7502c4388daf94c697fe6/63f75085536e813136bf8875_Satoshi-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('https://assets.website-files.com/63f7502c4388daf94c697fe6/63f750853baca6985d5d4bf2_Satoshi-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('https://assets.website-files.com/63f7502c4388daf94c697fe6/63f75085dd2b05d5c2a2dc2d_Satoshi-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('https://assets.website-files.com/63f7502c4388daf94c697fe6/63f75085536e813df0bf8876_Satoshi-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('https://assets.website-files.com/63f7502c4388daf94c697fe6/63f750853baca6dad15d4bf4_Satoshi-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('https://assets.website-files.com/63f7502c4388daf94c697fe6/63f750859f1e2f444a1b13f8_Satoshi-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('https://assets.website-files.com/63f7502c4388daf94c697fe6/63f75085f60fdd25b0cae686_Satoshi-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('https://assets.website-files.com/63f7502c4388daf94c697fe6/63f750859f1e2f6cb21b13f9_Satoshi-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('https://assets.website-files.com/63f7502c4388daf94c697fe6/63f75085b30bf96de46e81b9_Satoshi-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('https://assets.website-files.com/63f7502c4388daf94c697fe6/63f750851ce252635c0aa0f5_Satoshi-Italic.woff') format('woff'), url('https://assets.website-files.com/63f7502c4388daf94c697fe6/63f75085958dfd50805b5dd2_Satoshi-VariableItalic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }
    
 @-webkit-keyframes swiper-preloader-spin {
     to {
@@ -1342,7 +1411,7 @@ html {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    font-family: "Gilroy", "Arial", sans-serif;
+    font-family: Satoshi, sans-serif;
     color: #5f3636;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -1499,7 +1568,7 @@ button {
 }
 
 .rouble {
-    font-family: "Rouble", "Arial", sans-serif;
+    font-family: Satoshi, sans-serif;
     text-transform: lowercase !important;
     font-weight: 400 !important
 }
@@ -3931,7 +4000,7 @@ button {
     font-weight: 800;
     font-size: 1.125rem;
     line-height: 1.375rem;
-    font-family: "Gilroy", "Arial", sans-serif;
+    font-family: Satoshi, sans-serif;
     color: #995656;
     -webkit-transition: color .3s ease;
     -o-transition: color .3s ease;
@@ -4244,7 +4313,7 @@ button {
 .acquaintance__logo-bg,
 .acquaintance__logo-icon {
     top: 50%;
-    left: 50%;
+    left: 75%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%)
@@ -12442,7 +12511,7 @@ screen and (min-width:0\0) {
     }
 
     .acquaintance__wrapper {
-        padding: 13.125rem 0 7.5rem
+        padding: 0.125rem 0 7.5rem
     }
 
     .acquaintance__img-block picture:nth-child(1) img {
@@ -12474,6 +12543,7 @@ screen and (min-width:0\0) {
     }
 
     .acquaintance__heading {
+        width: 100% !important;
         max-width: 20.625rem;
         margin: 0
     }
@@ -14126,7 +14196,7 @@ screen and (min-width:0\0) {
     }
 }
 
-@media (max-width:767px) and (min-height:650px) {
+@media (max-width:767px) and (min-height:450px) {
 
     .beat__wrapper,
     .connections__wrapper,
