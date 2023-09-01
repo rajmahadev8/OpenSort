@@ -1096,11 +1096,6 @@ canvas {
         width: 7em;
     }
 
-    .custom-svg-container {
-        position: absolute;
-        width: 100%;
-    }
-
     .custom-svg-container>svg {
         scale: 0.8;
         position: absolute;
@@ -1509,5 +1504,29 @@ canvas {
     .card-animation__vibe-layer {
         top: 20px;
 
+    }
+}
+@media (max-width:500px) {
+    .custom-svg-container >svg{
+        right: 0;
+        scale: 1;
+        left: -72px;
+    }
+}
+@media (max-width:425px) {
+    .custom-svg-container >svg{
+        right: 0;
+        left: -100px;
+        scale: 1;
+    }
+}
+@media (max-width:375px) {
+    .custom-svg-container >svg{
+        left: -125px;
+    }
+}
+@media (max-width:320px) {
+    .custom-svg-container >svg{
+        left: -155px;
     }
 }
