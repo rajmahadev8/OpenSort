@@ -646,7 +646,7 @@ canvas {
     mask-repeat: no-repeat;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .footer__links {
         display: flex !important;
         flex-direction: column;
@@ -698,7 +698,7 @@ canvas {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 
     .vibe-svg {
         transform: scale(0.5) translate(0px, -194px) !important;
@@ -1029,7 +1029,7 @@ canvas {
     display: flex;
     align-items: center;
     gap: 10px;
-
+    width: 100%;
 }
 
 #tuwisn {
@@ -1072,7 +1072,7 @@ canvas {
 
 
 /* Backward laptop size (laptop, tablet, cell phone) */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
     /* Preloader */
     /* Spinner Loading */
@@ -1290,7 +1290,7 @@ canvas {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .card-animation__vibe-card-main {
         top: -0.3125rem;
         left: 1.875rem;
@@ -1351,7 +1351,10 @@ canvas {
         /* padding: 10.125rem 0 10.875rem;*/
     }
     .acquaintance__title-logo {
-        margin-top: 4rem;
+        margin: 0;
+        width: 100%;
+        display: grid;
+        justify-content: center;
     }
     .acquaintance .container{
         flex-direction: column;
@@ -1367,7 +1370,7 @@ canvas {
         justify-content: center;
         display: flex;
         align-items: flex-start;
-        width: 50%;
+        width: 90%;
         margin: 0 auto;
         padding: 0;
     }
@@ -1378,7 +1381,7 @@ canvas {
     .custom-svg-container >svg{
         scale: 1.2;
         position: relative;
-        bottom: 200px;
+        bottom: 100px;
         right: -14%;
     }
     #rwiaoe {
@@ -1512,6 +1515,12 @@ canvas {
         scale: 1;
         left: -72px;
     }
+    #tuwisn {
+        font-size:22px;
+       }
+       .hero-logo>img{
+       height:32px;
+       }
 }
 @media (max-width:425px) {
     .custom-svg-container >svg{
