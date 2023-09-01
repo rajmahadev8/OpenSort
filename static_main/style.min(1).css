@@ -3495,7 +3495,7 @@ button {
 
 [lang=hy] .acquaintance .acquaintance__title-text span,
 [lang=hy] .join .join__title span {
-    font-family: "Gilroy", "Arial", sans-serif
+    /* font-family: "Gilroy", "Arial", sans-serif */
 }
 
 .price-plans {
@@ -4167,17 +4167,17 @@ button {
     flex-direction: column;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: end;
     width: 100%;
     height: 100%;
     padding: 10.125rem 0 10.875rem
 }
 
 .acquaintance__img-block {
-    position: absolute;
+    position: relative;
     width: 100%;
     height: 100%;
-    min-height: 56.25rem;
+    /* min-height: 56.25rem; */
     -webkit-transform: scale(.3);
     -ms-transform: scale(.3);
     transform: scale(.3);
@@ -4254,7 +4254,7 @@ button {
 }
 
 .acquaintance__title {
-    position: relative;
+    /* position: relative; */
     -ms-flex-negative: 0;
     flex-shrink: 0;
     margin: 0 0 48px;
@@ -4262,7 +4262,7 @@ button {
     font-size: 3.125rem;
     line-height: 100%;
     text-align: center;
-    color:  #e88a77;
+    /* color:  #e88a77; */
     letter-spacing: .02em
 }
 
@@ -4297,21 +4297,20 @@ button {
 .acquaintance__logo-bg,
 .acquaintance__logo-icon,
 .acquaintance__title-logo {
-    position: absolute;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 14.4375rem;
-    height: 17.5rem
+    /* position: absolute; */
+    /* display: -webkit-box; */
+    /* display: -ms-flexbox; */
+    /* display: flex; */
+    width: max-content;
+    height: max-content;
+    /* height: 17.5rem */
 }
 
 .acquaintance__title-logo {
-    right: -1.75rem;
-    bottom: -7.75rem
+  
 }
 
-.acquaintance__logo-bg,
-.acquaintance__logo-icon {
+.acquaintance__logo-bg {
     top: 50%;
     left: 75%;
     -webkit-transform: translate(-50%, -50%);
@@ -4334,11 +4333,7 @@ button {
 }
 
 .acquaintance__logo-icon {
-    width: 9.1875rem;
-    height: 5.1875rem;
-    -webkit-transform:  translate(-74px, -69px);
-    -ms-transform:  translate(-74px, -69px);
-    transform:  translate(-74px, -69px)
+  
 }
 
 .acquaintance__logo-icon span {
@@ -5686,7 +5681,7 @@ button {
 .mission__animation-text-block,
 .mission__animation-text-images {
     position: absolute;
-    top: 0;
+    top: -16px;
     left: 0;
     width: 100%;
     height: 100%;
@@ -8573,7 +8568,7 @@ screen and (min-width:0\0) {
     }
 
     .acquaintance__wrapper {
-        padding: 22.8vh 0 20.2vh
+        /* padding: 22.8vh 0 20.2vh */
     }
 
     .acquaintance__img-block picture:nth-child(1) img {
@@ -8703,9 +8698,7 @@ screen and (min-width:0\0) {
         padding: 21.5vh 0
     }
 
-    .story__content {
-        margin: 0 2.5rem 0 auto
-    }
+    
 
     .story__title {
         margin: 0 0 3.3vh;
@@ -8834,7 +8827,7 @@ screen and (min-width:0\0) {
     }
 
     .acquaintance__title {
-        max-width: 35rem;
+        max-width: 85%;
         margin: 0 0 2.7vh;
         font-size: 2.25rem
     }
@@ -8868,8 +8861,8 @@ screen and (min-width:0\0) {
 
     .story__title {
         margin: 0 0 2.7vh;
-        font-size: 5.25rem;
-        max-width: 35rem
+        font-size: 5.45rem;
+        max-width: 36rem;
     }
 
     .story__text {
@@ -9088,11 +9081,10 @@ screen and (min-width:0\0) {
         transform: scale(2.5)
     }
 
-    .story__content,
     .vibe__content {
         margin: 0 0 0 auto
     }
-
+   
     .connections__content,
     .mission__content {
         margin: 0 auto 0 0
@@ -9170,9 +9162,9 @@ screen and (min-width:0\0) {
     }
 
     .mission.shown-in .mission__animation-text-images picture:nth-child(3) img {
-        -webkit-transform: translateX(-7.5rem);
-        -ms-transform: translateX(-7.5rem);
-        transform: translateX(-7.5rem)
+        -webkit-transform: translate(-7.5rem,-54px);
+        -ms-transform: translate(-7.5rem,-54px);
+        transform: translate(-7.5rem,-54px)
     }
 
     .mission.shown-in .mission__animation-text-icon {
@@ -10045,12 +10037,8 @@ screen and (min-width:0\0) {
         margin: 0 -20px
     }
 
-    .acquaintance__title-logo {
-        right: -18px;
-        bottom: -94px;
-        width: 164px;
-        height: 199px
-    }
+    
+
 
     .acquaintance__logo-bg {
         left: 40%
@@ -10277,13 +10265,10 @@ screen and (min-width:0\0) {
         -webkit-box-pack: end;
         -ms-flex-pack: end;
         justify-content: flex-end;
-        padding: 0 0 127px
+        padding:  1.5rem; 
     }
 
-    .story__content {
-        max-width: 548px;
-        margin: 0
-    }
+    
 
     .story__title {
         margin: 0 0 22px;
@@ -10817,12 +10802,7 @@ screen and (min-width:0\0) {
         margin: 0
     }
 
-    .card-animation__folder {
-        top: -20px;
-        left: -10px;
-        width: 461px;
-        height: 400px
-    }
+    
 
     .card-animation__notes {
         display: none;
@@ -12542,11 +12522,7 @@ screen and (min-width:0\0) {
         height: 13.125rem
     }
 
-    .acquaintance__heading {
-        width: 100% !important;
-        max-width: 20.625rem;
-        margin: 0
-    }
+    
 
     .acquaintance__title {
         margin: 0 0 1.25rem;
@@ -12565,8 +12541,8 @@ screen and (min-width:0\0) {
     }
 
     .acquaintance__logo-bg,
-    .acquaintance__logo-bg img,
-    .acquaintance__title-logo {
+    .acquaintance__logo-bg img
+     {
         width: 7.4375rem;
         height: 9rem
     }
@@ -12784,9 +12760,9 @@ screen and (min-width:0\0) {
     }
 
     .vibe__title {
-        max-width: 14.8125rem;
+        max-width: 18.8125rem;
         margin: 0 0 1rem;
-        font-size: 2.25rem
+        font-size: 2.5rem;
     }
 
     .vibe__text {
@@ -12815,7 +12791,7 @@ screen and (min-width:0\0) {
     .story__title {
         max-width: 19rem;
         margin: 0 0 1rem;
-        font-size: 2.25rem
+        font-size: 2.5rem
     }
 
     .story__text {
@@ -13069,9 +13045,9 @@ screen and (min-width:0\0) {
     }
 
     .mission.shown-in .mission__animation-text-images picture:nth-child(3) img {
-        -webkit-transform: translate(1.25rem, .625rem);
-        -ms-transform: translate(1.25rem, .625rem);
-        transform: translate(1.25rem, .625rem)
+        -webkit-transform: translate(1.25rem, -1rem);
+        -ms-transform: translate(1.25rem, -1rem);
+        transform: translate(1.25rem, -1rem)
     }
 
     .mission.shown-in .mission__animation-text-icon {
@@ -13308,12 +13284,7 @@ screen and (min-width:0\0) {
         margin: 0
     }
 
-    .card-animation__folder {
-        top: .0625rem;
-        left: -.1875rem;
-        width: 18.4375rem;
-        height: 16rem
-    }
+   
 
     .card-animation__notes {
         top: .125rem;
@@ -14310,3 +14281,18 @@ screen and (min-width:0\0) {
     }
 }
 
+@media screen and (min-width:1250px) and  (max-width: 1600px) {
+   
+    .card-animation__vibe-card {
+        width: 12.9375rem;
+        height: 20.9375rem;
+    }
+    .card-animation__vibe-card-main {
+        top: 0.375rem;
+        left: 5rem;
+        width: 19rem;
+        height: 25.525rem;
+    }
+    
+    
+}

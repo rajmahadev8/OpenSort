@@ -636,22 +636,20 @@
           <div class="acquaintance__img-block">
           </div>
           <div class="container">
-            <div class="acquaintance__heading"
-              style="display: flex; justify-content: start; align-items: flex-start; width: 50%;">
-              <span class="acquaintance__title-logo" style="position: relative;">
-                <span class="acquaintance__logo-bg">
+            <div class="acquaintance__heading">
+              <div class="acquaintance__title-logo">
+                
+                <div class="acquaintance__logo-bg">
                   <picture>
-                    <img src="./static_main/logo-bg.png" width="231" height="280" alt="Logo background">
+                    <!-- <img src="./static_main/logo-bg.png" width="231" height="280" alt="Logo background"> -->
                   </picture>
-                </span>
-                <span class="acquaintance__logo-icon" style="display: flex; align-items: center; width: 100%;
-                 ">
-                  <picture>
-                    <span style=" font-size: 3rem; font-weight: 600; font-family: satoshi ; color:#0ABAB5;" id="tuwisn"></span>
-                  </picture>
-
-                </span>
-              </span>
+                </div>
+                
+                  
+                <div class="hero-logo acquaintance__logo-icon" >
+                  <img src="./static_main/logo_icon_new.png"> <span id="tuwisn"></span>
+                 </div>
+              </div>
               <h2 class="acquaintance__title">
                 <span class="acquaintance__title-text"></span>
                 <!-- <span class="acquaintance__title-text"><span style="font-family: AnuratiRegular;">E</span>mpowers
@@ -1810,7 +1808,7 @@
                 </a>
 
                 <!-- HOME 01 -->
-                <svg class="mission-svg" width="2000" height="742" viewBox="0 0 4200 742" fill="none"
+                <svg class="mission-svg" viewBox="0 0 4200 742" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
 
                   <g class="bubble" fill="#F1E6FF">
@@ -1888,7 +1886,7 @@
         <div class="vibe__bg screen__bg"></div>
         <div class="vibe__wrapper screen__content">
           <div class="container">
-            <svg class="vibe-svg" width="2000" height="742" viewBox="0 0 4200 742" fill="none"
+            <svg class="vibe-svg"  viewBox="0 0 4200 742" fill="none"
               xmlns="http://www.w3.org/2000/svg">
 
               <g class="bubble" fill="#F1E6FF">
@@ -2212,9 +2210,17 @@
   <script type="text/javascript">
     // console.log(dynamic_data.mission__text.title);
 
+    var coloredText =  dynamic_data.section_1.text.split(",");
+    document.querySelector("#rwiaoe").innerHTML = coloredText[0]+",";
+    var s = document.createElement("span");
+    var txt = document.createTextNode(coloredText[1]);
+    s.classList.add("text-gray");
+    s.appendChild(txt);
+    document.querySelector("#rwiaoe").appendChild(s);
+
     //hero section
     document.querySelector("#tuwisn").innerHTML = dynamic_data.section_1.title;
-    document.querySelector("#rwiaoe").innerHTML = dynamic_data.section_1.text;
+    // document.querySelector("#rwiaoe").innerHTML = dynamic_data.section_1.text;
 
     // Our mission
     document.querySelector(".mission__title").innerHTML = dynamic_data.section_2.title;

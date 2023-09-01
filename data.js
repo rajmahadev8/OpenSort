@@ -3,8 +3,8 @@ dynamic_data = {
     
     // ---- Hero section ----  
     "section_1": {
-        "title": "OPENSORT", //Note : you can change only text on right hand side of ":" i.e OPENSORT. Please Do not change keys i.e "section_1" or "title".
-        "text": "Uniting Families, Cultivating Joy Within",
+        "title": "Opensort", //Note : you can change only text on right hand side of ":" i.e OPENSORT. Please Do not change keys i.e "section_1" or "title".
+        "text": "Connecting Hearts❤️, Empowering Joy In Families",
     },
     // ---- Our mission section---- 
     "section_2": {
@@ -13,7 +13,7 @@ dynamic_data = {
     },
     // ---- Feel Spirit section ---- 
     "section_3": {
-        "title": "Feel the spirit of Family",
+        "title": "Feel The Spirit of Family",
         "text": "Build closer connections with your loved ones, grasp a deeper understanding of their perspectives, and exchange meaningful aspects of your life throughout everyday situations and memorable occasions.",
     },
     // ---- Tale of family section ----
