@@ -125,8 +125,11 @@ dynamic_data = {
         "linkedin":"https://www.linkedin.com/company/opensort/",
         "company_information":"https://find-and-update.company-information.service.gov.uk/company/12064920/more",
         
+    },
 
-        
+    "partciles_controller":{
+        "visible": true,         // false to hide and true to show.     
+        "front": true,          //  false to make it back true to make it at front
     }
 
 };
