@@ -2107,7 +2107,7 @@
         <div class="join__bg screen__bg"></div>
         <div class="screen__content final-screen__content-wrapper">
           <div class="join__wrapper">
-            <h2 class="join__title">Join Opensort!</h2>
+            <h2 class="join__title" id="ufjsi"></h2>
 
             <div class="final-screen__img-wrapper">
               <div class="final-screen__img">
@@ -2141,10 +2141,11 @@
             <footer class="footer">
               <div class="container">
                 <p class="footer__copyright"><span>©
-                    <script>document.write(new Date().getFullYear());</script> Clueinit LTD
-                  </span></p>
-                  <a class="footer__link" id="ruoae"
-                  target="_blank"></a>
+                  <script>document.write(new Date().getFullYear());</script> Clueinit LTD
+                </span>
+                <a class="footer__link" id="ruoae"
+                target="_blank"></a>
+              </p>
                 <div class="footer__wrapper">
                   <ul class="footer__links">
                     <li class="footer__links-item footer_links-item--always"><a class="footer__link" href="./Opensort.html">Home</a></li>
@@ -2229,6 +2230,8 @@
     //digital communities connections
     document.querySelector(".connections__title").innerHTML = dynamic_data.section_5.title;
     document.querySelector(".connections__text").innerHTML = dynamic_data.section_5.text;
+
+    document.querySelector("#ufjsi").innerHTML = dynamic_data.section_6.title;
 
     // socials
     document.querySelector('#fiwoa').href = dynamic_data.section_socials_1.linkedin;

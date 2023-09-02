@@ -1966,6 +1966,7 @@ button {
     line-height: 1.3125rem;
     display: grid;
     gap: .9375rem .625rem;
+    color: #5f3636;
 }
 
 .footer__wrapper {

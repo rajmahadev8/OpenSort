@@ -26,7 +26,11 @@ dynamic_data = {
         "title": "Connecting familes in digital harmony",
         "text": "Connect with your families digitally.",
     },
-
+     
+    //--- Above footer ----
+    "section_6":{
+        "title": "Join Opensort",
+    },
 
     // **------------------------------------------------------ ABOUT US PAGE DATA ----------------------------------------------------------------**
 
