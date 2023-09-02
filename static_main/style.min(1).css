@@ -2047,7 +2047,9 @@ button {
     flex-shrink: 0;
     margin: 0 5.4375rem 0 0;
     font-size: 1.125rem;
-    line-height: 1.3125rem
+    line-height: 1.3125rem;
+    display: grid;
+    gap: .9375rem .625rem;
 }
 
 .footer__wrapper {
