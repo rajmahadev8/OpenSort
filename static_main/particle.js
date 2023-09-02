@@ -43,7 +43,7 @@ class Particle {
       $(".acquaintance__wrapper").append(this.item);
       return {
         width: this.item.width(),
-        height: this.item.height() };
+        height: this.item.height()*1000 };
   
     }}
   
