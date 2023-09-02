@@ -1154,6 +1154,9 @@ canvas {
     .acquaintance__title-logo {
         margin-top: 4rem;
     }
+    .mission__animation-text-block, .mission__animation-text-images {
+        top: 10px;
+    }
 }
 
 @media screen and (max-width: 1600px) {
@@ -1199,6 +1202,9 @@ canvas {
 
     .acquaintance__title-logo {
         margin-top: 8rem;
+    }
+    .mission__animation-text-block, .mission__animation-text-images {
+        top: 0px;
     }
 }
 
@@ -1264,6 +1270,11 @@ canvas {
     .custom-svg-container {
         width: 53%;
 
+    }
+    .mission.shown-in .mission__animation-text-images picture:nth-child(3) img {
+        -webkit-transform: translate(-5.5rem,-39px);
+        -ms-transform: translate(-5.5rem,-39px);
+        transform: translate(-5.5rem,-39px);
     }
 }
 
@@ -1436,6 +1447,28 @@ canvas {
     .card-animation__folder {
         width: 19.4375rem;
         height: 15rem;
+    }
+    .mission__animation-text-images picture:nth-child(3) img {
+        
+        width: auto;
+        height: 6.125rem;
+    }
+    .mission.shown-in .mission__animation-text-images picture:nth-child(3) img {
+        -webkit-transform: translate(1.5rem,-20px);
+        -ms-transform: translate(1.5rem,-20px);
+        transform: translate(1.5rem,-20px);
+    }
+    .mission__animation-text-images picture:nth-child(2) img {
+        bottom: 10.3125rem;
+        left: 5.0625rem;
+        width: auto;
+        height: 8rem;
+    }
+    .mission__animation-text-images picture:nth-child(1) img {
+        bottom: 22.9375rem;
+        left: 5.1875rem;
+        width: auto;
+        height: 5.5rem;
     }
 }
 

@@ -5726,14 +5726,14 @@ button {
     z-index: 1;
     bottom: 233px;
     width: 22.25rem;
-    height: 13.125rem
+    height: 18.125rem;
 }
 
 .mission__animation-text-images picture:nth-child(3) img {
     right: calc(50% - 550px);
     bottom: 420px;
     width: 18.125rem;
-    height: 12.25rem
+    height: 17rem;
 }
 .mission__animation-text-images picture:nth-child(4) img {
     right: calc(50% - 550px);
@@ -9124,10 +9124,9 @@ screen and (min-width:0\0) {
         right: 6.5rem;
         bottom: 2.6875rem
     }
-
     .mission__animation-text-images picture:nth-child(1) img {
-        bottom: 33.1875rem;
-        left: 29.5rem
+        bottom: 36.1875rem;
+        left: 27.5rem;
     }
 
     .mission__animation-text-images picture:nth-child(2) img {
@@ -10504,22 +10503,23 @@ screen and (min-width:0\0) {
     .mission__animation-text-images picture:nth-child(1) img {
         bottom: 513px;
         left: 226px;
-        width: 171px;
-        height: 110px
+        width: auto;
+        height: 167px;
+    
     }
 
     .mission__animation-text-images picture:nth-child(2) img {
         bottom: 297px;
         left: 127px;
-        width: 254px;
-        height: 150px
+        width: auto;
+        height: 210px;
     }
 
     .mission__animation-text-images picture:nth-child(3) img {
         right: 116px;
         bottom: 387px;
-        width: 207px;
-        height: 140px
+        width: auto;
+        height: 200px
     }
     .mission__animation-text-images picture:nth-child(4) img {
         right: 116px;
