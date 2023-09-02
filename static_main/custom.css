@@ -1302,53 +1302,8 @@ canvas {
         scale: 1.1;
     }
 }
-
-@media screen and (max-width: 767px) {
-    .card-animation__vibe-card-main {
-        top: -0.3125rem;
-        left: 1.875rem;
-        width: 8.875rem;
-        height: 11.875rem;
-    }
-
-    .card-animation__vibe-card {
-        width: 6.4375rem;
-        height: 9.625rem;
-    }
-
-    .card-animation__folder {
-        top: 0.0625rem;
-        left: -0.1875rem;
-        width: 27.4375rem;
-        height: 25rem;
-    }
-
-    .story__content {
-        max-width: 548px;
-        margin: 0
-    }
-
-    .story__wrapper {
-        padding-top: 50vh;
-    }
-
-    .card-animation__folder {
-        top: 1.0625rem;
-    }
-
-    .card-animation__folder {
-        top: 0.0625rem;
-        left: -1.1875rem;
-        width: 27.4375rem;
-        height: 25rem;
-    }
-
-    .story__wrapper::after {
-        top: -45px;
-        left: -10px;
-        scale: 0.4;
-    }
-
+@media screen and (max-width:768px) {
+    
     .acquaintance__wrapper {
         /* display: -webkit-box; */
         display: -ms-flexbox;
@@ -1423,6 +1378,55 @@ canvas {
     .acquaintance__logo-bg,
     .acquaintance__logo-bg img {
         height: 10px;
+    }
+
+    .story__content {
+        max-width: 548px;
+        margin: 0
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .card-animation__vibe-card-main {
+        top: -0.3125rem;
+        left: 1.875rem;
+        width: 8.875rem;
+        height: 11.875rem;
+    }
+
+    .card-animation__vibe-card {
+        width: 6.4375rem;
+        height: 9.625rem;
+    }
+
+    .card-animation__folder {
+        top: 0.0625rem;
+        left: -0.1875rem;
+        width: 27.4375rem;
+        height: 25rem;
+    }
+
+
+    .story__wrapper {
+        padding-top: 50vh;
+    }
+
+    .card-animation__folder {
+        top: 1.0625rem;
+    }
+
+    .card-animation__folder {
+        top: 0.0625rem;
+        left: -1.1875rem;
+        width: 27.4375rem;
+        height: 25rem;
+    }
+
+    .story__wrapper::after {
+        top: -45px;
+        left: -10px;
+        scale: 0.4;
     }
 
 
